@@ -5,3 +5,12 @@ C:\Users\Ah\Dropbox\[ALG'15] Materials\---- Staff only ----\Projects\Intelligent
 C:\Users\Ah\Dropbox\[ALG'15] Materials\---- Staff only ----\Projects\Intelligent Scissors\[TEMPLATE] IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.exe
 C:\Users\Ah\Dropbox\[ALG'15] Materials\---- Staff only ----\Projects\Intelligent Scissors\[TEMPLATE] IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.pdb
 C:\Users\Ah\Dropbox\[ALG'15] Materials\---- Staff only ----\Projects\Intelligent Scissors\[TEMPLATE] IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.MainForm.resources
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\bin\Debug\IntelligentScissors.exe
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\bin\Debug\IntelligentScissors.pdb
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.csprojAssemblyReference.cache
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.MainForm.resources
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.Properties.Resources.resources
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.csproj.GenerateResource.cache
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.csproj.CoreCompileInputs.cache
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.exe
+E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.pdb

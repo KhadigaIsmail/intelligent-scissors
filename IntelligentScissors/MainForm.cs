@@ -15,8 +15,7 @@ namespace IntelligentScissors
             InitializeComponent();
         }
 
-        RGBPixel[,] ImageMatrix;
-
+        public RGBPixel[,] ImageMatrix;
         private void btnOpen_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
@@ -27,19 +26,20 @@ namespace IntelligentScissors
                 ImageMatrix = ImageOperations.OpenImage(OpenedFilePath);
                 ImageOperations.DisplayImage(ImageMatrix, pictureBox1);
             }
+
             txtWidth.Text = ImageOperations.GetWidth(ImageMatrix).ToString();
             txtHeight.Text = ImageOperations.GetHeight(ImageMatrix).ToString();
         }
 
+        double[,] energy = new double[1000, 1000];
         private void btnGaussSmooth_Click(object sender, EventArgs e)
         {
-            double sigma = double.Parse(txtGaussSigma.Text);
-            int maskSize = (int)nudMaskSize.Value ;
-            ImageMatrix = ImageOperations.GaussianFilter1D(ImageMatrix, maskSize, sigma);
+            energy = graph_.calculateEnergy(ImageMatrix);
             ImageOperations.DisplayImage(ImageMatrix, pictureBox2);
         }
 
-       
-       
+
+
+
     }
 }

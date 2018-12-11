@@ -4,6 +4,7 @@ using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
+using System.IO;
 ///Algorithms Project
 ///Intelligent Scissors
 ///
@@ -143,6 +144,7 @@ namespace IntelligentScissors
             double rotatedEdgeAngle = edgeAngle + Math.PI / 2.0;
 
             Vector2D energy = new Vector2D();
+            
             energy.X = Math.Abs(gradientMagnitude * Math.Cos(rotatedEdgeAngle));
             energy.Y = Math.Abs(gradientMagnitude * Math.Sin(rotatedEdgeAngle));
 
