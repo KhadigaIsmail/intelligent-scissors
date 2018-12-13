@@ -34,7 +34,7 @@ namespace IntelligentScissors
         double[,] energy = new double[1000, 1000];
         private void btnGaussSmooth_Click(object sender, EventArgs e)
         {
-            energy = graph_.calculateEnergy(ImageMatrix);
+            energy = graph_.calculateWeights(ImageMatrix);
             ImageOperations.DisplayImage(ImageMatrix, pictureBox2);
         }
 
