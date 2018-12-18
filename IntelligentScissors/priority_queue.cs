@@ -2,105 +2,216 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace IntelligentScissors
 {
-    
-        class PriorityQueue<T> where T : IComparable
+    class Node
     {
-       
-            private List<T> list;
-            public int Count { get { return list.Count; } }
-            public readonly bool IsDescending;
+        public double weight { get; set; }
 
-            public PriorityQueue()
-            {
-                list = new List<T>();
-            }
+        public int count;
+        public Queue<int> qx, qy;
+        public Node left, right;
+        public bool nullflag;
+        public Node()
+        {
+            count = 0;
+            nullflag = false;
+            qx = new Queue<int>();
+            qy = new Queue<int>();
 
-            public PriorityQueue(bool isdesc)
-                : this()
-            {
-                IsDescending = isdesc;
-            }
-
-            public PriorityQueue(int capacity)
-                : this(capacity, false)
-            { }
-
-            public PriorityQueue(IEnumerable<T> collection)
-                : this(collection, false)
-            { }
-
-            public PriorityQueue(int capacity, bool isdesc)
-            {
-                list = new List<T>(capacity);
-                IsDescending = isdesc;
-            }
-
-            public PriorityQueue(IEnumerable<T> collection, bool isdesc)
-                : this()
-            {
-                IsDescending = isdesc;
-                foreach (var item in collection)
-                    Enqueue(item);
-            }
-
-
-            public void Enqueue(T x)
-            {
-                list.Add(x);
-                int i = Count - 1;
-
-                while (i > 0)
-                {
-                    int p = (i - 1) / 2;
-                    if ((IsDescending ? -1 : 1) * list[p].CompareTo(x) <= 0) break;
-
-                    list[i] = list[p];
-                    i = p;
-                }
-
-                if (Count > 0) list[i] = x;
-            }
-
-            public T Dequeue()
-            {
-                T target = Peek();
-                T root = list[Count - 1];
-                list.RemoveAt(Count - 1);
-
-                int i = 0;
-                while (i * 2 + 1 < Count)
-                {
-                    int a = i * 2 + 1;
-                    int b = i * 2 + 2;
-                    int c = b < Count && (IsDescending ? -1 : 1) * list[b].CompareTo(list[a]) < 0 ? b : a;
-
-                    if ((IsDescending ? -1 : 1) * list[c].CompareTo(root) >= 0) break;
-                    list[i] = list[c];
-                    i = c;
-                }
-
-                if (Count > 0) list[i] = root;
-                return target;
-            }
-
-            public T Peek()
-            {
-                if (Count == 0) throw new InvalidOperationException("Queue is empty.");
-                return list[0];
-            }
-
-            public void Clear()
-            {
-                list.Clear();
-            }
-            
-            public bool Empty ()
-            {
-                if (list.Count() == 0) return true;
-                else return false;
-            }
         }
+        public Node(int xx, int yy, double w)
+        {
+            this.weight = w;
+            count = 1;
+            nullflag = false;
+            qx = new Queue<int>();
+            qy = new Queue<int>();
+            qx.Enqueue(xx);
+            qy.Enqueue(yy);
+        }
+
     }
+    class elPriorityQueuebta3khadiga
+    {
+        private Node root;
+        private int Count;
+
+        public elPriorityQueuebta3khadiga()
+        {
+            root = new Node();
+
+        }
+        public elPriorityQueuebta3khadiga(int xx, int yy, double w)
+        {
+            root = new Node(xx, yy, w);
+            Count++;
+        }
+        public void push(int xx, int yy, double w)
+        {
+            if (root == null)
+            {
+                root = new Node(xx, yy, w);
+                Count++;
+                return;
+            }
+            Node tempNode = new Node();
+            tempNode = root;
+            while (true)
+            {
+                if (tempNode.weight < w)
+                {
+                    if (tempNode.weight == w)
+                    {
+                        tempNode.count++;
+                        tempNode.qx.Enqueue(xx); tempNode.qy.Enqueue(yy);
+                        break;
+                    }
+                    else if (tempNode.right == null)
+                    {
+                        tempNode.right = new Node(xx, yy, w);
+                        break;
+                    }
+                    else
+                    {
+                        tempNode = tempNode.right;
+                    }
+                }
+                else
+                {
+                    if (tempNode.weight == w)
+                    {
+                        tempNode.count++;
+                        tempNode.qx.Enqueue(xx); tempNode.qy.Enqueue(yy);
+                        break;
+                    }
+                    else if (tempNode.left == null)
+                    {
+                        tempNode.left = new Node(xx, yy, w);
+                        break;
+                    }
+                    else
+                    {
+                        tempNode = tempNode.left;
+                    }
+                }
+            }
+            Count++;
+        }
+        public bool Empty()
+        {
+            return Count == 0;
+        }
+        private void e3redly_kol_7aga_yabnlkalb(Node dod)
+        {
+            if (dod == null) return;
+            //if(dod.nullflag==false)
+            Console.WriteLine(dod.weight + " " + dod.nullflag + " ");
+            e3redly_kol_7aga_yabnlkalb(dod.left);
+            e3redly_kol_7aga_yabnlkalb(dod.right);
+
+        }
+        public void show()
+        {
+            e3redly_kol_7aga_yabnlkalb(root);
+        }
+        public Node Top()
+        {
+            Node minNode = root;
+
+            while (minNode.left != null)
+            {
+                minNode = minNode.left;
+            }
+            return minNode;
+        }
+        public void Pop()
+        {
+            //get the minimum node
+            Node minNode = root;
+            Node parent = root;
+            while (minNode.left != null)
+            {
+                if (minNode.left.nullflag == false)
+                {
+                    parent = minNode;
+                    minNode = minNode.left;
+                }
+                else break;
+
+            }
+            if (minNode.count > 1)
+            {
+                minNode.count--;
+                Count--;
+                minNode.qx.Dequeue();
+                minNode.qy.Dequeue();
+
+                return;
+            }
+
+            Node n = new Node();
+            n = minNode;
+
+
+            if ((n.left == null) && (n.right == null)) //deleting a leaf node
+            {
+                if (n == root)
+                    root = null;
+                else
+                {
+
+                    if (minNode.weight < parent.weight)
+                    { parent.left = null; }
+                    else
+                        parent.right = null;
+                }
+                minNode.nullflag = true;
+            }
+            else if ((n.left == null) && (n.right != null))
+            {
+                if (n == root)
+                    root = n.right;
+                else
+                {
+                    if (minNode.weight < parent.weight)
+                        parent.left = n.right;
+                    else
+                        parent.right = n.right;
+                }
+
+            }
+            else if ((n.left != null) && (n.right == null))
+            {
+                if (n == root)
+                    root = n.left;
+                else
+                {
+                    if (minNode.weight < parent.weight)
+                        parent.left = n.left;
+                    else
+                        parent.right = n.left;
+                }
+
+            }
+            else
+            {
+                n.weight = minNode.weight;
+
+                if (parent == n)
+                    parent.right = minNode.right;
+                else
+                    parent.left = minNode.right;
+
+            }
+            Count--;
+        }
+
+
+    }
+}
+
+
+

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace IntelligentScissors
 {
-    public class Pair<T, U>
+    public class Pair<T, U> where U: IComparable
     {
         public Pair()
         {
@@ -19,5 +19,10 @@ namespace IntelligentScissors
 
         public T First { get; set; }
         public U Second { get; set; }
+
+        public int CompareTo(Pair<T, U> obj)
+        {
+            return Second.CompareTo(obj.Second);
+        }
     };
 }

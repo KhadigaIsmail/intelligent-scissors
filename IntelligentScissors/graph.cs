@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Windows.Forms;
 namespace IntelligentScissors
 {
     public  class graph_
@@ -33,35 +38,54 @@ namespace IntelligentScissors
         const int N = (1 << 22), M = (1 << 18), OO = 0x3f3f3f3f;
 
         List<Pair<int, int>> adj = new List<Pair<int, int>>(N);
-        int n, m, u, v, c, s;
-        
-        public static void Dijkstra(int src)
+        public static bool valid ( int x, int y)
         {
-            int [] dis ;
-            //	priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-            Pair<int, int> pr = new Pair<int, int>();
-            PriorityQueue<Pair<int, int>> pq = new PriorityQueue<Pair<int, int>>();
-            Pair<Pair<int, int>,int > p = new Pair<Pair<int, int>,int >();
-            List<Pair<int, int>> l = new List<Pair<int, int>>();
-            pr.First = 0;
-            pr.Second = src;
-            pq.Enqueue(pr);
-            dis[src] = 0;
-            while (!pq.Empty())
-            {
-                int p = pq.Peek().second;
-                int d = -pq.Peek().first;
-                pq.Dequeue();
-                if (d > dis[p]) continue;
-                for (Pair<int, int> ch : adj[p])
-                {
-                    if (dis[ch.second] > d + ch.first)
-                    {
-                        dis[ch.second] = d + ch.first;
-                        pq.Enqueue(make_pair(-dis[ch.second], ch.second));
-                    }
-                }
-            }
+            if (x >= 0 && y >= 0 && x < 5 && y < 5) return true;
+            return false;
         }
+         public static double[,] Dijkstra(double [,] graph,int x , int y)
+         {
+             double [,] dis = new double[6,6];
+
+            for(int i = 0;i < 5; ++i)
+            {
+                for (int j = 0; j < 5; ++j)
+                    dis[i, j] = int.MaxValue;
+            }
+             elPriorityQueuebta3khadiga pq = new elPriorityQueuebta3khadiga(x,y,0.0);
+             dis[x,y] = 0;
+             while (!pq.Empty())
+             {
+                 double d = pq.Top().weight;
+                 int xx = pq.Top().qx.Peek();
+                 int yy = pq.Top().qy.Peek();
+                 pq.Pop();
+                
+                if (d > dis[xx, yy]) continue;
+                 if (valid(xx+1,yy)&&dis[xx+1,yy] > d + graph[xx+1,yy] )
+                 {
+                     dis[xx + 1, yy] = d + graph[xx + 1, yy];
+                        pq.push(xx+1,yy,dis[xx+1,yy]);
+                 }
+
+                 if (valid(xx,yy+1)&&dis[xx, yy+1] > d + graph[xx, yy+1])
+                 {
+                     dis[xx, yy + 1] = d + graph[xx, yy + 1];
+                        pq.push(xx, yy+1, dis[xx , yy+1]);
+                }
+                 if (valid(xx-1, yy) && dis[xx - 1, yy] > d + graph[xx - 1, yy])
+                 {
+                     dis[xx - 1, yy] = d + graph[xx - 1, yy];
+                        pq.push(xx - 1, yy, dis[xx - 1, yy]);
+                }
+                 if (valid(xx, yy-1) && dis[xx, yy - 1] > d + graph[xx, yy - 1])
+                 {
+                     dis[xx, yy - 1] = d + graph[xx, yy - 1];
+                        pq.push(xx, yy-1, dis[xx, yy-1]);
+                }
+             }
+                return dis;
+         }
+      
     }
 }
