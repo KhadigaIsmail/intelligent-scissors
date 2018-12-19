@@ -42,11 +42,12 @@ namespace IntelligentScissors
                     g[i, j] = i + j + 2.0;
 
             }
-            
-            double[,] dist = graph_.Dijkstra(g, 0, 0);
+            int[,] fromx = new int[1000, 1000];
+            int[,] fromy = new int[1000, 1000];
+            double[,] dist = graph_.Dijkstra(g, 0, 0,3,2,fromx,fromy);
             using (StreamWriter writer = new StreamWriter("output1.txt"))
             {
-                writer.Write("this is the distance");
+                writer.WriteLine("this is the distance");
                 for (int i = 0; i < 5; ++i)
                 {
                     for (int j = 0; j < 5; ++j)
@@ -68,6 +69,7 @@ namespace IntelligentScissors
                     writer.WriteLine(" ");
                 }
             }
+            graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
         }
         
         double[,] energy = new double[1000, 1000];
@@ -76,7 +78,6 @@ namespace IntelligentScissors
             energy = graph_.calculateWeights(ImageMatrix);
 
             MouseEventArgs me = (MouseEventArgs)e;
-            graph_.Dijkstra(energy, me.X, me.Y);
             ImageOperations.DisplayImage(ImageMatrix, pictureBox2);
         }
 
