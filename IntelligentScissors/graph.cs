@@ -18,21 +18,25 @@ namespace IntelligentScissors
             double[,] weights = new double[1000, 1000];
             int height = ImageOperations.GetHeight(ImageMatrix);
             int width = ImageOperations.GetWidth(ImageMatrix);
-
             for (int y = 0; y < height - 1; y++)
             {
                 for (int x = 0; x < width - 1; x++)
                 {
 
-                    Vector2D e;
-                    e = ImageOperations.CalculatePixelEnergies(x, y, ImageMatrix);
-                    weights[y + 1, x] = 1 / e.X;
-                    weights[y, x + 1] = 1 / e.Y;
+                    Vector2D ee;
+                    ee = ImageOperations.CalculatePixelEnergies(x, y, ImageMatrix);
+                    weights[y + 1, x] = 1 / ee.X;
+                    weights[y, x + 1] = 1 / ee.Y;
 
 
                 }
             }
-           
+            Vector2D e;
+            e = ImageOperations.CalculatePixelEnergies(2, 6 ,ImageMatrix);
+            MessageBox.Show(e.X.ToString());
+            e = ImageOperations.CalculatePixelEnergies(1, 6, ImageMatrix);
+            MessageBox.Show(e.Y.ToString());
+
             return weights;
         }
 
@@ -119,7 +123,7 @@ namespace IntelligentScissors
         public static void printpath(int x, int y, int srcx , int srcy, int[,] fromx, int[,] fromy,double [,] dis)
         {
             if (x == srcx && y == srcy) return;
-            MessageBox.Show(x + " " + y);
+           // MessageBox.Show(x + " " + y);
             printpath(fromx[x,y],fromy[x,y],srcx,srcy,fromx,fromy, dis);
         }
       
