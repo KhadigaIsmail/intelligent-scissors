@@ -17,6 +17,7 @@ namespace IntelligentScissors
         }
 
         public RGBPixel[,] ImageMatrix;
+        int h, w;
         private void btnOpen_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
@@ -28,11 +29,14 @@ namespace IntelligentScissors
                 ImageOperations.DisplayImage(ImageMatrix, pictureBox1);
             }
 
-            txtWidth.Text = ImageOperations.GetWidth(ImageMatrix).ToString();
-            txtHeight.Text = ImageOperations.GetHeight(ImageMatrix).ToString();
+            h_w();
            saving_distance();
         }
-
+        public void h_w ()
+        {
+            h = ImageOperations.GetWidth(ImageMatrix);
+            w = ImageOperations.GetHeight(ImageMatrix);
+        }
         public static void saving_distance()
         {
             double[,] g = new double[100, 100];
@@ -44,7 +48,7 @@ namespace IntelligentScissors
             }
             int[,] fromx = new int[1000, 1000];
             int[,] fromy = new int[1000, 1000];
-            double[,] dist = graph_.Dijkstra(g, 0, 0,3,2,fromx,fromy);
+            /*double[,] dist = graph_.Dijkstra(g, 0, 0,3,2,fromx,fromy);
             using (StreamWriter writer = new StreamWriter("output1.txt"))
             {
                 writer.WriteLine("this is the distance");
@@ -68,8 +72,8 @@ namespace IntelligentScissors
                     }
                     writer.WriteLine(" ");
                 }
-            }
-            graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
+            }*/
+           // graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
         }
         
         double[,] energy = new double[1000, 1000];
@@ -83,7 +87,6 @@ namespace IntelligentScissors
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
         }
 
         // The "size" of an object for mouse over purposes.
@@ -138,10 +141,21 @@ namespace IntelligentScissors
 
             // Create the new segment.
             Pt1.Add(NewPt1);
-            Pt1.Add(NewPt2);
+            //Pt1.Add(NewPt2);
+            if(Pt1.Count>1)
+            { int[,] fromx = new int[1000, 1000]; int[,] fromy = new int[1000, 1000];
 
+                double[,]  dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 2].X, Pt1[Pt1.Count - 2].Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy,h,w);
+                graph_.printpath(Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, Pt1[Pt1.Count - 2].X, Pt1[Pt1.Count - 2].Y, fromx, fromy, dis,ImageMatrix);
+
+            }
             // Redraw.
             pictureBox1.Invalidate();
+        }
+
+        private void done_Click(object sender, EventArgs e)
+        {
+
         }
 
         #endregion // Drawing
@@ -172,6 +186,7 @@ namespace IntelligentScissors
             {
                 e.Graphics.DrawLine(Pens.Red, NewPt1, NewPt2);
             }
+
         }
     }
 }

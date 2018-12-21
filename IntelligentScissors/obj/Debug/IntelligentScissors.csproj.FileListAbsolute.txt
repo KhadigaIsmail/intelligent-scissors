@@ -13,4 +13,3 @@ E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\Inte
 E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.csproj.CoreCompileInputs.cache
 E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.exe
 E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.pdb
-E:\College\Materials\Algo\IntelligentScissors\IntelligentScissors\obj\Debug\IntelligentScissors.csprojAssemblyReference.cache

@@ -44,6 +44,7 @@ namespace IntelligentScissors
             this.txtGaussSigma = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.done = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaskSize)).BeginInit();
@@ -239,17 +240,28 @@ namespace IntelligentScissors
             this.panel2.AutoScroll = true;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(706, 18);
+            this.panel2.Location = new System.Drawing.Point(801, 11);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(630, 569);
+            this.panel2.Size = new System.Drawing.Size(535, 576);
             this.panel2.TabIndex = 16;
+            // 
+            // done
+            // 
+            this.done.Location = new System.Drawing.Point(686, 286);
+            this.done.Name = "done";
+            this.done.Size = new System.Drawing.Size(77, 46);
+            this.done.TabIndex = 17;
+            this.done.Text = "done";
+            this.done.UseVisualStyleBackColor = true;
+            this.done.Click += new System.EventHandler(this.done_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1356, 769);
+            this.Controls.Add(this.done);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtGaussSigma);
@@ -298,6 +310,7 @@ namespace IntelligentScissors
         private System.Windows.Forms.TextBox txtGaussSigma;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button done;
     }
 }
 
