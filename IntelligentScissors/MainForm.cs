@@ -49,38 +49,28 @@ namespace IntelligentScissors
             int[,] fromx = new int[1000, 1000];
             int[,] fromy = new int[1000, 1000];
             /*double[,] dist = graph_.Dijkstra(g, 0, 0,3,2,fromx,fromy);
-            using (StreamWriter writer = new StreamWriter("output1.txt"))
-            {
-                writer.WriteLine("this is the distance");
-                for (int i = 0; i < 5; ++i)
+                 {
+               MessageBox.Show("L");
+                for (int i = 0; i < 100; ++i)
                 {
-                    for (int j = 0; j < 5; ++j)
+                    for (int j = 0; j < 100; ++j)
                     {
-                        writer.Write(g[i, j]);
-                        writer.Write(" ");
-
+                        writer.WriteLine("x y "+i+" "+j+" "+fromx[i, j]+" "+ fromy[i, j]);
+                        
+                     
                     }
-                    writer.WriteLine(" ");
                 }
-                for (int i = 0; i < 5; ++i)
-                {
-                    for (int j = 0; j < 5; ++j)
-                    {
-                        writer.Write(dist[i, j]);
-                        writer.Write(" ");
-
-                    }
-                    writer.WriteLine(" ");
-                }
-            }*/
-           // graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
+               
+            }
+             */
+            // graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
         }
-        
+
         double[,] energy = new double[1000, 1000];
         private void btnGaussSmooth_Click(object sender, EventArgs e)
         {
             energy = graph_.calculateWeights(ImageMatrix);
-
+            saving_constructed_graph(energy, h, w);
             MouseEventArgs me = (MouseEventArgs)e;
             ImageOperations.DisplayImage(ImageMatrix, pictureBox2);
         }
@@ -188,5 +178,86 @@ namespace IntelligentScissors
             }
 
         }
+
+        public static string saving_constructed_graph_help(int nodeindex, int right, int left, int up, int down, double r, double l, double u, double d)//help saving_constructed_graph
+        {
+            if ((up == -1) && (down == -1) && (right == -1) && (left == -1))
+                return "";
+            string a = "", b = "", c = "", dd = "", s = "The  index node" + nodeindex.ToString() + "\n" + "Edges" + '\n';
+            if (right != -1)
+            {
+                a = "edge from   " + nodeindex.ToString() + "  To  " + right.ToString() + "  With Weights  " + r.ToString() + "\n";
+            }//edge from   2  To  3  With Weights  1E+16
+            if (down != -1)
+            {
+                b = "edge from   " + nodeindex.ToString() + "  To  " + down.ToString() + "  With Weights  " + d.ToString() + "\n";
+            }
+            if (up != -1)
+            {
+                c = "edge from   " + nodeindex.ToString() + "  To  " + up.ToString() + "  With Weights  " + u.ToString() + "\n";
+            }
+            if (left != -1)
+            {
+                dd = "edge from   " + nodeindex.ToString() + "  To  " + left.ToString() + "  With Weights  " + l.ToString() + "\n";
+            }
+
+            return s + Environment.NewLine + a + Environment.NewLine + b + Environment.NewLine + c + Environment.NewLine + dd + Environment.NewLine;
+
+        }
+        public static void saving_constructed_graph(double[,] graphh, int N, int M)
+        {
+            int counter = 0, box;
+            string s = "";
+           // MessageBox.Show("P");
+            using (StreamWriter writer = new StreamWriter("output1.txt"))
+            {//double[,] energy = new double[1000, 1000];
+                writer.WriteLine("The constructed graph");
+                writer.WriteLine("\n");
+                //display index 0
+                int right, left, up, down;
+                right = -1; left = -1; up = -1; down = -1;
+                double r = 0, l = 0, u = 0, d = 0;
+                //edge from   0  To  11  With Weights  1E+16
+                for (int i = 0; i < N; ++i)
+                {
+                    for (int j = 0; j < M; ++j)
+                    {
+
+                        if (i != N - 1) //down
+                        {
+                            down = counter + M;
+                            d = graphh[i + 1, j];
+                        }
+                        if (j != M - 1)//right
+                        {
+                            //MessageBox.Show(i.ToString() + " " + j.ToString());
+                            right = counter + 1;
+                            r = graphh[i, j + 1];
+                        }
+
+                        if (j != 0)//left
+                        {
+                            left = counter - 1;
+                            l = graphh[i, j - 1];
+                        }
+                        if (i != 0)//up
+                        {
+                            up = counter - M;
+                            u = graphh[i - 1, j];
+                        }
+                        // MessageBox.Show(counter.ToString() + " " + down.ToString());
+                        s = saving_constructed_graph_help(counter, right, left, up, down, r, l, u, d);
+                        counter++;
+                        right = -1; left = -1; up = -1; down = -1;
+                        if (s != null)
+                            writer.WriteLine(s);
+                    }
+
+
+                }
+
+            }
+        }
+
     }
 }
