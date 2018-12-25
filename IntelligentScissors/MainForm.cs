@@ -88,11 +88,12 @@ namespace IntelligentScissors
 
         // The points that make up the line segments.
         private List<Point> Pt1 = new List<Point>();
-
+        Point[] arrayofpoints = new Point[1];
         // Points for the new line.
         private bool IsDrawing = false;
         private Point NewPt1, NewPt2;
 
+              private  List<Point> lololyy = new List<Point>();
 
         // See what we're over and start doing whatever is appropriate.
         private void picCanvas_MouseDown(object sender, MouseEventArgs e)
@@ -115,7 +116,8 @@ namespace IntelligentScissors
         {
             // Save the new point.
             NewPt2 = new Point(e.X, e.Y);
-
+           // MessageBox.Show("L");
+            
             // Redraw.
             pictureBox1.Invalidate();
         }
@@ -132,13 +134,7 @@ namespace IntelligentScissors
             // Create the new segment.
             Pt1.Add(NewPt1);
             //Pt1.Add(NewPt2);
-            if(Pt1.Count>1)
-            { int[,] fromx = new int[1000, 1000]; int[,] fromy = new int[1000, 1000];
-
-                double[,]  dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 2].X, Pt1[Pt1.Count - 2].Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy,h,w);
-                graph_.printpath(Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, Pt1[Pt1.Count - 2].X, Pt1[Pt1.Count - 2].Y, fromx, fromy, dis,ImageMatrix);
-
-            }
+            
             // Redraw.
             pictureBox1.Invalidate();
         }
@@ -154,11 +150,11 @@ namespace IntelligentScissors
         private void picCanvas_Paint(object sender, PaintEventArgs e)
         {
             // Draw the segments.
-            for (int i = 0; i < Pt1.Count - 1; i++)
+            /*for (int i = 0; i < Pt1.Count - 1; i++)
             {
                 // Draw the segment.
                 e.Graphics.DrawLine(Pens.PowderBlue, Pt1[i], Pt1[i + 1]);
-            }
+            }*/
 
             // Draw the end points.
             foreach (Point pt in Pt1)
@@ -172,9 +168,15 @@ namespace IntelligentScissors
 
 
             // If there's a new segment under constructions, draw it.
-            if (IsDrawing)
+            if (IsDrawing && Pt1.Count > 0)
             {
-                e.Graphics.DrawLine(Pens.DarkSalmon, NewPt1, NewPt2);
+                //MessageBox.Show("L");
+                for (int i = 0; i < lololyy.Count-1; i++)
+                {
+                    e.Graphics.DrawLine(Pens.DarkSalmon, lololyy[i], lololyy[i+1]);
+                }
+                //Pen p = new Pen(Color.Red ,3 );
+                //e.Graphics.DrawLines(p, arrayofpoints);
             }
 
         }
@@ -182,7 +184,17 @@ namespace IntelligentScissors
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             NewPt2 = new Point(e.X, e.Y);
-
+            if (Pt1.Count > 0)
+            {
+                lololyy.Clear();
+                int[,] fromx = new int[1000, 1000]; int[,] fromy = new int[1000, 1000];
+                double[,] dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, e.X, e.Y, fromx, fromy, h, w);
+                graph_.printpath(e.X, e.Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy, dis, ImageMatrix,lololyy);
+                //arrayofpoints = new Point[lololyy.Count];
+                
+                //ImageOperations.DisplayImage(ImageMatrix, pictureBox1);
+                //MessageBox.Show("P");
+            }
             // Redraw.
             pictureBox1.Invalidate();
         }

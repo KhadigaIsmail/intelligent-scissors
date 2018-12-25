@@ -140,14 +140,15 @@ namespace IntelligentScissors
             }
             return dis;
         }
-        public static void printpath(int x, int y, int srcx , int srcy, int[,] fromx, int[,] fromy,double [,] dis,RGBPixel [,] imageMatrix)
+        public static void printpath(int x, int y, int srcx , int srcy, int[,] fromx, int[,] fromy,double [,] dis,RGBPixel [,] imageMatrix,List <Point> lop )
         {
             if (x == srcx && y == srcy) return;
+            lop.Add( new Point(x, y));
              //MessageBox.Show(x + " " + y);
-            imageMatrix[y, x].blue = 0;
+           /* imageMatrix[y, x].blue = 0;
             imageMatrix[y, x].red = 255;
-            imageMatrix[y, x].green = 0;
-            printpath(fromx[y,x],fromy[y,x],srcx,srcy,fromx,fromy, dis,imageMatrix);
+            imageMatrix[y, x].green = 0;*/
+            printpath(fromx[y,x],fromy[y,x],srcx,srcy,fromx,fromy, dis,imageMatrix,lop);
         }
       
     }
