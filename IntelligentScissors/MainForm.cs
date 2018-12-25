@@ -123,7 +123,7 @@ namespace IntelligentScissors
         // Stop drawing.
         private void picCanvas_MouseUp_Drawing(object sender, MouseEventArgs e)
         {
-            IsDrawing = false;
+            //IsDrawing = false;
 
             // Reset the event handlers.
             pictureBox1.MouseMove -= picCanvas_MouseMove_Drawing;
@@ -166,7 +166,7 @@ namespace IntelligentScissors
                 Rectangle rect = new Rectangle(
                     pt.X - object_radius, pt.Y - object_radius,
                     2 * object_radius + 1, 2 * object_radius + 1);
-                e.Graphics.FillEllipse(Brushes.Red, rect);
+                e.Graphics.FillEllipse(Brushes.CornflowerBlue, rect);
                 e.Graphics.DrawEllipse(Pens.Black, rect);
             }
 
@@ -174,9 +174,17 @@ namespace IntelligentScissors
             // If there's a new segment under constructions, draw it.
             if (IsDrawing)
             {
-                e.Graphics.DrawLine(Pens.Red, NewPt1, NewPt2);
+                e.Graphics.DrawLine(Pens.DarkSalmon, NewPt1, NewPt2);
             }
 
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            NewPt2 = new Point(e.X, e.Y);
+
+            // Redraw.
+            pictureBox1.Invalidate();
         }
 
         public static string saving_constructed_graph_help(int nodeindex, int right, int left, int up, int down, double r, double l, double u, double d)//help saving_constructed_graph

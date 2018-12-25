@@ -39129,7 +39129,7 @@ Edges
 
 edge from   3274  To  3275  With Weights  1.79769313486232E+308
 
-edge from   3274  To  3374  With Weights  0.00496401092082403
+edge from   3274  To  3374  With Weights  1.79769313486232E+308
 
 edge from   3274  To  3174  With Weights  1.79769313486232E+308
 
@@ -40313,9 +40313,9 @@ edge from   3372  To  3371  With Weights  1.79769313486232E+308
 The  index node3373
 Edges
 
-edge from   3373  To  3374  With Weights  0.00496401092082403
+edge from   3373  To  3374  With Weights  1.79769313486232E+308
 
-edge from   3373  To  3473  With Weights  101660620780478
+edge from   3373  To  3473  With Weights  21348730363900.5
 
 edge from   3373  To  3273  With Weights  21348730363900.5
 
@@ -40327,7 +40327,7 @@ Edges
 
 edge from   3374  To  3375  With Weights  1.79769313486232E+308
 
-edge from   3374  To  3474  With Weights  27023709321393
+edge from   3374  To  3474  With Weights  1.79769313486232E+308
 
 edge from   3374  To  3274  With Weights  1.79769313486232E+308
 
@@ -40343,7 +40343,7 @@ edge from   3375  To  3475  With Weights  1.79769313486232E+308
 
 edge from   3375  To  3275  With Weights  1.79769313486232E+308
 
-edge from   3375  To  3374  With Weights  0.00496401092082403
+edge from   3375  To  3374  With Weights  1.79769313486232E+308
 
 
 The  index node3376
@@ -41499,7 +41499,7 @@ edge from   3471  To  3470  With Weights  1.79769313486232E+308
 The  index node3472
 Edges
 
-edge from   3472  To  3473  With Weights  101660620780478
+edge from   3472  To  3473  With Weights  21348730363900.5
 
 edge from   3472  To  3572  With Weights  1.79769313486232E+308
 
@@ -41511,9 +41511,9 @@ edge from   3472  To  3471  With Weights  1.79769313486232E+308
 The  index node3473
 Edges
 
-edge from   3473  To  3474  With Weights  27023709321393
+edge from   3473  To  3474  With Weights  1.79769313486232E+308
 
-edge from   3473  To  3573  With Weights  101660620780478
+edge from   3473  To  3573  With Weights  21348730363900.5
 
 edge from   3473  To  3373  With Weights  21348730363900.5
 
@@ -41525,11 +41525,11 @@ Edges
 
 edge from   3474  To  3475  With Weights  1.79769313486232E+308
 
-edge from   3474  To  3574  With Weights  27023709321393
+edge from   3474  To  3574  With Weights  1.79769313486232E+308
 
-edge from   3474  To  3374  With Weights  0.00496401092082403
+edge from   3474  To  3374  With Weights  1.79769313486232E+308
 
-edge from   3474  To  3473  With Weights  101660620780478
+edge from   3474  To  3473  With Weights  21348730363900.5
 
 
 The  index node3475
@@ -41541,7 +41541,7 @@ edge from   3475  To  3575  With Weights  1.79769313486232E+308
 
 edge from   3475  To  3375  With Weights  1.79769313486232E+308
 
-edge from   3475  To  3474  With Weights  27023709321393
+edge from   3475  To  3474  With Weights  1.79769313486232E+308
 
 
 The  index node3476
@@ -42697,7 +42697,7 @@ edge from   3571  To  3570  With Weights  1.79769313486232E+308
 The  index node3572
 Edges
 
-edge from   3572  To  3573  With Weights  101660620780478
+edge from   3572  To  3573  With Weights  21348730363900.5
 
 edge from   3572  To  3672  With Weights  1.79769313486232E+308
 
@@ -42709,11 +42709,11 @@ edge from   3572  To  3571  With Weights  1.79769313486232E+308
 The  index node3573
 Edges
 
-edge from   3573  To  3574  With Weights  27023709321393
+edge from   3573  To  3574  With Weights  1.79769313486232E+308
 
-edge from   3573  To  3673  With Weights  101660620780478
+edge from   3573  To  3673  With Weights  21348730363900.5
 
-edge from   3573  To  3473  With Weights  101660620780478
+edge from   3573  To  3473  With Weights  21348730363900.5
 
 edge from   3573  To  3572  With Weights  1.79769313486232E+308
 
@@ -42723,11 +42723,11 @@ Edges
 
 edge from   3574  To  3575  With Weights  1.79769313486232E+308
 
-edge from   3574  To  3674  With Weights  27023709321393
+edge from   3574  To  3674  With Weights  1.79769313486232E+308
 
-edge from   3574  To  3474  With Weights  27023709321393
+edge from   3574  To  3474  With Weights  1.79769313486232E+308
 
-edge from   3574  To  3573  With Weights  101660620780478
+edge from   3574  To  3573  With Weights  21348730363900.5
 
 
 The  index node3575
@@ -42739,7 +42739,7 @@ edge from   3575  To  3675  With Weights  1.79769313486232E+308
 
 edge from   3575  To  3475  With Weights  1.79769313486232E+308
 
-edge from   3575  To  3574  With Weights  27023709321393
+edge from   3575  To  3574  With Weights  1.79769313486232E+308
 
 
 The  index node3576
@@ -43895,7 +43895,7 @@ edge from   3671  To  3670  With Weights  1.79769313486232E+308
 The  index node3672
 Edges
 
-edge from   3672  To  3673  With Weights  101660620780478
+edge from   3672  To  3673  With Weights  21348730363900.5
 
 edge from   3672  To  3772  With Weights  1.79769313486232E+308
 
@@ -43907,11 +43907,11 @@ edge from   3672  To  3671  With Weights  1.79769313486232E+308
 The  index node3673
 Edges
 
-edge from   3673  To  3674  With Weights  27023709321393
+edge from   3673  To  3674  With Weights  1.79769313486232E+308
 
-edge from   3673  To  3773  With Weights  101660620780478
+edge from   3673  To  3773  With Weights  0.0186741363211952
 
-edge from   3673  To  3573  With Weights  101660620780478
+edge from   3673  To  3573  With Weights  21348730363900.5
 
 edge from   3673  To  3672  With Weights  1.79769313486232E+308
 
@@ -43921,11 +43921,11 @@ Edges
 
 edge from   3674  To  3675  With Weights  1.79769313486232E+308
 
-edge from   3674  To  3774  With Weights  27023709321393
+edge from   3674  To  3774  With Weights  1.79769313486232E+308
 
-edge from   3674  To  3574  With Weights  27023709321393
+edge from   3674  To  3574  With Weights  1.79769313486232E+308
 
-edge from   3674  To  3673  With Weights  101660620780478
+edge from   3674  To  3673  With Weights  21348730363900.5
 
 
 The  index node3675
@@ -43937,7 +43937,7 @@ edge from   3675  To  3775  With Weights  1.79769313486232E+308
 
 edge from   3675  To  3575  With Weights  1.79769313486232E+308
 
-edge from   3675  To  3674  With Weights  27023709321393
+edge from   3675  To  3674  With Weights  1.79769313486232E+308
 
 
 The  index node3676
@@ -45093,9 +45093,9 @@ edge from   3771  To  3770  With Weights  1.79769313486232E+308
 The  index node3772
 Edges
 
-edge from   3772  To  3773  With Weights  101660620780478
+edge from   3772  To  3773  With Weights  0.0186741363211952
 
-edge from   3772  To  3872  With Weights  1.79769313486232E+308
+edge from   3772  To  3872  With Weights  101660620780478
 
 edge from   3772  To  3672  With Weights  1.79769313486232E+308
 
@@ -45105,11 +45105,11 @@ edge from   3772  To  3771  With Weights  1.79769313486232E+308
 The  index node3773
 Edges
 
-edge from   3773  To  3774  With Weights  27023709321393
+edge from   3773  To  3774  With Weights  1.79769313486232E+308
 
-edge from   3773  To  3873  With Weights  101660620780478
+edge from   3773  To  3873  With Weights  27023709321393
 
-edge from   3773  To  3673  With Weights  101660620780478
+edge from   3773  To  3673  With Weights  21348730363900.5
 
 edge from   3773  To  3772  With Weights  1.79769313486232E+308
 
@@ -45119,11 +45119,11 @@ Edges
 
 edge from   3774  To  3775  With Weights  1.79769313486232E+308
 
-edge from   3774  To  3874  With Weights  27023709321393
+edge from   3774  To  3874  With Weights  1.79769313486232E+308
 
-edge from   3774  To  3674  With Weights  27023709321393
+edge from   3774  To  3674  With Weights  1.79769313486232E+308
 
-edge from   3774  To  3773  With Weights  101660620780478
+edge from   3774  To  3773  With Weights  0.0186741363211952
 
 
 The  index node3775
@@ -45135,7 +45135,7 @@ edge from   3775  To  3875  With Weights  1.79769313486232E+308
 
 edge from   3775  To  3675  With Weights  1.79769313486232E+308
 
-edge from   3775  To  3774  With Weights  27023709321393
+edge from   3775  To  3774  With Weights  1.79769313486232E+308
 
 
 The  index node3776
@@ -46279,7 +46279,7 @@ edge from   3870  To  3869  With Weights  1.79769313486232E+308
 The  index node3871
 Edges
 
-edge from   3871  To  3872  With Weights  1.79769313486232E+308
+edge from   3871  To  3872  With Weights  101660620780478
 
 edge from   3871  To  3971  With Weights  1.79769313486232E+308
 
@@ -46291,9 +46291,9 @@ edge from   3871  To  3870  With Weights  1.79769313486232E+308
 The  index node3872
 Edges
 
-edge from   3872  To  3873  With Weights  101660620780478
+edge from   3872  To  3873  With Weights  27023709321393
 
-edge from   3872  To  3972  With Weights  1.79769313486232E+308
+edge from   3872  To  3972  With Weights  101660620780478
 
 edge from   3872  To  3772  With Weights  1.79769313486232E+308
 
@@ -46303,13 +46303,13 @@ edge from   3872  To  3871  With Weights  1.79769313486232E+308
 The  index node3873
 Edges
 
-edge from   3873  To  3874  With Weights  27023709321393
+edge from   3873  To  3874  With Weights  1.79769313486232E+308
 
-edge from   3873  To  3973  With Weights  101660620780478
+edge from   3873  To  3973  With Weights  27023709321393
 
-edge from   3873  To  3773  With Weights  101660620780478
+edge from   3873  To  3773  With Weights  0.0186741363211952
 
-edge from   3873  To  3872  With Weights  1.79769313486232E+308
+edge from   3873  To  3872  With Weights  101660620780478
 
 
 The  index node3874
@@ -46317,11 +46317,11 @@ Edges
 
 edge from   3874  To  3875  With Weights  1.79769313486232E+308
 
-edge from   3874  To  3974  With Weights  27023709321393
+edge from   3874  To  3974  With Weights  1.79769313486232E+308
 
-edge from   3874  To  3774  With Weights  27023709321393
+edge from   3874  To  3774  With Weights  1.79769313486232E+308
 
-edge from   3874  To  3873  With Weights  101660620780478
+edge from   3874  To  3873  With Weights  27023709321393
 
 
 The  index node3875
@@ -46333,7 +46333,7 @@ edge from   3875  To  3975  With Weights  1.79769313486232E+308
 
 edge from   3875  To  3775  With Weights  1.79769313486232E+308
 
-edge from   3875  To  3874  With Weights  27023709321393
+edge from   3875  To  3874  With Weights  1.79769313486232E+308
 
 
 The  index node3876
@@ -47477,7 +47477,7 @@ edge from   3970  To  3969  With Weights  1.79769313486232E+308
 The  index node3971
 Edges
 
-edge from   3971  To  3972  With Weights  1.79769313486232E+308
+edge from   3971  To  3972  With Weights  101660620780478
 
 edge from   3971  To  4071  With Weights  1.79769313486232E+308
 
@@ -47489,11 +47489,11 @@ edge from   3971  To  3970  With Weights  1.79769313486232E+308
 The  index node3972
 Edges
 
-edge from   3972  To  3973  With Weights  101660620780478
+edge from   3972  To  3973  With Weights  27023709321393
 
-edge from   3972  To  4072  With Weights  1.79769313486232E+308
+edge from   3972  To  4072  With Weights  101660620780478
 
-edge from   3972  To  3872  With Weights  1.79769313486232E+308
+edge from   3972  To  3872  With Weights  101660620780478
 
 edge from   3972  To  3971  With Weights  1.79769313486232E+308
 
@@ -47501,13 +47501,13 @@ edge from   3972  To  3971  With Weights  1.79769313486232E+308
 The  index node3973
 Edges
 
-edge from   3973  To  3974  With Weights  27023709321393
+edge from   3973  To  3974  With Weights  1.79769313486232E+308
 
-edge from   3973  To  4073  With Weights  101660620780478
+edge from   3973  To  4073  With Weights  27023709321393
 
-edge from   3973  To  3873  With Weights  101660620780478
+edge from   3973  To  3873  With Weights  27023709321393
 
-edge from   3973  To  3972  With Weights  1.79769313486232E+308
+edge from   3973  To  3972  With Weights  101660620780478
 
 
 The  index node3974
@@ -47515,11 +47515,11 @@ Edges
 
 edge from   3974  To  3975  With Weights  1.79769313486232E+308
 
-edge from   3974  To  4074  With Weights  27023709321393
+edge from   3974  To  4074  With Weights  1.79769313486232E+308
 
-edge from   3974  To  3874  With Weights  27023709321393
+edge from   3974  To  3874  With Weights  1.79769313486232E+308
 
-edge from   3974  To  3973  With Weights  101660620780478
+edge from   3974  To  3973  With Weights  27023709321393
 
 
 The  index node3975
@@ -47531,7 +47531,7 @@ edge from   3975  To  4075  With Weights  1.79769313486232E+308
 
 edge from   3975  To  3875  With Weights  1.79769313486232E+308
 
-edge from   3975  To  3974  With Weights  27023709321393
+edge from   3975  To  3974  With Weights  1.79769313486232E+308
 
 
 The  index node3976
@@ -48675,7 +48675,7 @@ edge from   4070  To  4069  With Weights  1.79769313486232E+308
 The  index node4071
 Edges
 
-edge from   4071  To  4072  With Weights  1.79769313486232E+308
+edge from   4071  To  4072  With Weights  101660620780478
 
 edge from   4071  To  4171  With Weights  1.79769313486232E+308
 
@@ -48687,11 +48687,11 @@ edge from   4071  To  4070  With Weights  1.79769313486232E+308
 The  index node4072
 Edges
 
-edge from   4072  To  4073  With Weights  101660620780478
+edge from   4072  To  4073  With Weights  27023709321393
 
-edge from   4072  To  4172  With Weights  1.79769313486232E+308
+edge from   4072  To  4172  With Weights  101660620780478
 
-edge from   4072  To  3972  With Weights  1.79769313486232E+308
+edge from   4072  To  3972  With Weights  101660620780478
 
 edge from   4072  To  4071  With Weights  1.79769313486232E+308
 
@@ -48699,13 +48699,13 @@ edge from   4072  To  4071  With Weights  1.79769313486232E+308
 The  index node4073
 Edges
 
-edge from   4073  To  4074  With Weights  27023709321393
+edge from   4073  To  4074  With Weights  1.79769313486232E+308
 
-edge from   4073  To  4173  With Weights  101660620780478
+edge from   4073  To  4173  With Weights  27023709321393
 
-edge from   4073  To  3973  With Weights  101660620780478
+edge from   4073  To  3973  With Weights  27023709321393
 
-edge from   4073  To  4072  With Weights  1.79769313486232E+308
+edge from   4073  To  4072  With Weights  101660620780478
 
 
 The  index node4074
@@ -48713,11 +48713,11 @@ Edges
 
 edge from   4074  To  4075  With Weights  1.79769313486232E+308
 
-edge from   4074  To  4174  With Weights  27023709321393
+edge from   4074  To  4174  With Weights  1.79769313486232E+308
 
-edge from   4074  To  3974  With Weights  27023709321393
+edge from   4074  To  3974  With Weights  1.79769313486232E+308
 
-edge from   4074  To  4073  With Weights  101660620780478
+edge from   4074  To  4073  With Weights  27023709321393
 
 
 The  index node4075
@@ -48729,7 +48729,7 @@ edge from   4075  To  4175  With Weights  1.79769313486232E+308
 
 edge from   4075  To  3975  With Weights  1.79769313486232E+308
 
-edge from   4075  To  4074  With Weights  27023709321393
+edge from   4075  To  4074  With Weights  1.79769313486232E+308
 
 
 The  index node4076
@@ -49873,7 +49873,7 @@ edge from   4170  To  4169  With Weights  1.79769313486232E+308
 The  index node4171
 Edges
 
-edge from   4171  To  4172  With Weights  1.79769313486232E+308
+edge from   4171  To  4172  With Weights  101660620780478
 
 edge from   4171  To  4271  With Weights  1.79769313486232E+308
 
@@ -49885,11 +49885,11 @@ edge from   4171  To  4170  With Weights  1.79769313486232E+308
 The  index node4172
 Edges
 
-edge from   4172  To  4173  With Weights  101660620780478
+edge from   4172  To  4173  With Weights  27023709321393
 
-edge from   4172  To  4272  With Weights  1.79769313486232E+308
+edge from   4172  To  4272  With Weights  101660620780478
 
-edge from   4172  To  4072  With Weights  1.79769313486232E+308
+edge from   4172  To  4072  With Weights  101660620780478
 
 edge from   4172  To  4171  With Weights  1.79769313486232E+308
 
@@ -49897,13 +49897,13 @@ edge from   4172  To  4171  With Weights  1.79769313486232E+308
 The  index node4173
 Edges
 
-edge from   4173  To  4174  With Weights  27023709321393
+edge from   4173  To  4174  With Weights  1.79769313486232E+308
 
-edge from   4173  To  4273  With Weights  101660620780478
+edge from   4173  To  4273  With Weights  27023709321393
 
-edge from   4173  To  4073  With Weights  101660620780478
+edge from   4173  To  4073  With Weights  27023709321393
 
-edge from   4173  To  4172  With Weights  1.79769313486232E+308
+edge from   4173  To  4172  With Weights  101660620780478
 
 
 The  index node4174
@@ -49911,11 +49911,11 @@ Edges
 
 edge from   4174  To  4175  With Weights  1.79769313486232E+308
 
-edge from   4174  To  4274  With Weights  27023709321393
+edge from   4174  To  4274  With Weights  1.79769313486232E+308
 
-edge from   4174  To  4074  With Weights  27023709321393
+edge from   4174  To  4074  With Weights  1.79769313486232E+308
 
-edge from   4174  To  4173  With Weights  101660620780478
+edge from   4174  To  4173  With Weights  27023709321393
 
 
 The  index node4175
@@ -49927,7 +49927,7 @@ edge from   4175  To  4275  With Weights  1.79769313486232E+308
 
 edge from   4175  To  4075  With Weights  1.79769313486232E+308
 
-edge from   4175  To  4174  With Weights  27023709321393
+edge from   4175  To  4174  With Weights  1.79769313486232E+308
 
 
 The  index node4176
@@ -51071,7 +51071,7 @@ edge from   4270  To  4269  With Weights  1.79769313486232E+308
 The  index node4271
 Edges
 
-edge from   4271  To  4272  With Weights  1.79769313486232E+308
+edge from   4271  To  4272  With Weights  101660620780478
 
 edge from   4271  To  4371  With Weights  1.79769313486232E+308
 
@@ -51083,11 +51083,11 @@ edge from   4271  To  4270  With Weights  1.79769313486232E+308
 The  index node4272
 Edges
 
-edge from   4272  To  4273  With Weights  101660620780478
+edge from   4272  To  4273  With Weights  27023709321393
 
-edge from   4272  To  4372  With Weights  1.79769313486232E+308
+edge from   4272  To  4372  With Weights  101660620780478
 
-edge from   4272  To  4172  With Weights  1.79769313486232E+308
+edge from   4272  To  4172  With Weights  101660620780478
 
 edge from   4272  To  4271  With Weights  1.79769313486232E+308
 
@@ -51095,13 +51095,13 @@ edge from   4272  To  4271  With Weights  1.79769313486232E+308
 The  index node4273
 Edges
 
-edge from   4273  To  4274  With Weights  27023709321393
+edge from   4273  To  4274  With Weights  1.79769313486232E+308
 
-edge from   4273  To  4373  With Weights  101660620780478
+edge from   4273  To  4373  With Weights  27023709321393
 
-edge from   4273  To  4173  With Weights  101660620780478
+edge from   4273  To  4173  With Weights  27023709321393
 
-edge from   4273  To  4272  With Weights  1.79769313486232E+308
+edge from   4273  To  4272  With Weights  101660620780478
 
 
 The  index node4274
@@ -51109,11 +51109,11 @@ Edges
 
 edge from   4274  To  4275  With Weights  1.79769313486232E+308
 
-edge from   4274  To  4374  With Weights  27023709321393
+edge from   4274  To  4374  With Weights  1.79769313486232E+308
 
-edge from   4274  To  4174  With Weights  27023709321393
+edge from   4274  To  4174  With Weights  1.79769313486232E+308
 
-edge from   4274  To  4273  With Weights  101660620780478
+edge from   4274  To  4273  With Weights  27023709321393
 
 
 The  index node4275
@@ -51125,7 +51125,7 @@ edge from   4275  To  4375  With Weights  1.79769313486232E+308
 
 edge from   4275  To  4175  With Weights  1.79769313486232E+308
 
-edge from   4275  To  4274  With Weights  27023709321393
+edge from   4275  To  4274  With Weights  1.79769313486232E+308
 
 
 The  index node4276
@@ -52269,7 +52269,7 @@ edge from   4370  To  4369  With Weights  1.79769313486232E+308
 The  index node4371
 Edges
 
-edge from   4371  To  4372  With Weights  1.79769313486232E+308
+edge from   4371  To  4372  With Weights  101660620780478
 
 edge from   4371  To  4471  With Weights  1.79769313486232E+308
 
@@ -52281,11 +52281,11 @@ edge from   4371  To  4370  With Weights  1.79769313486232E+308
 The  index node4372
 Edges
 
-edge from   4372  To  4373  With Weights  101660620780478
+edge from   4372  To  4373  With Weights  27023709321393
 
-edge from   4372  To  4472  With Weights  1.79769313486232E+308
+edge from   4372  To  4472  With Weights  101660620780478
 
-edge from   4372  To  4272  With Weights  1.79769313486232E+308
+edge from   4372  To  4272  With Weights  101660620780478
 
 edge from   4372  To  4371  With Weights  1.79769313486232E+308
 
@@ -52293,13 +52293,13 @@ edge from   4372  To  4371  With Weights  1.79769313486232E+308
 The  index node4373
 Edges
 
-edge from   4373  To  4374  With Weights  27023709321393
+edge from   4373  To  4374  With Weights  1.79769313486232E+308
 
-edge from   4373  To  4473  With Weights  101660620780478
+edge from   4373  To  4473  With Weights  27023709321393
 
-edge from   4373  To  4273  With Weights  101660620780478
+edge from   4373  To  4273  With Weights  27023709321393
 
-edge from   4373  To  4372  With Weights  1.79769313486232E+308
+edge from   4373  To  4372  With Weights  101660620780478
 
 
 The  index node4374
@@ -52307,11 +52307,11 @@ Edges
 
 edge from   4374  To  4375  With Weights  1.79769313486232E+308
 
-edge from   4374  To  4474  With Weights  27023709321393
+edge from   4374  To  4474  With Weights  1.79769313486232E+308
 
-edge from   4374  To  4274  With Weights  27023709321393
+edge from   4374  To  4274  With Weights  1.79769313486232E+308
 
-edge from   4374  To  4373  With Weights  101660620780478
+edge from   4374  To  4373  With Weights  27023709321393
 
 
 The  index node4375
@@ -52323,7 +52323,7 @@ edge from   4375  To  4475  With Weights  1.79769313486232E+308
 
 edge from   4375  To  4275  With Weights  1.79769313486232E+308
 
-edge from   4375  To  4374  With Weights  27023709321393
+edge from   4375  To  4374  With Weights  1.79769313486232E+308
 
 
 The  index node4376
@@ -53467,7 +53467,7 @@ edge from   4470  To  4469  With Weights  1.79769313486232E+308
 The  index node4471
 Edges
 
-edge from   4471  To  4472  With Weights  1.79769313486232E+308
+edge from   4471  To  4472  With Weights  101660620780478
 
 edge from   4471  To  4571  With Weights  1.79769313486232E+308
 
@@ -53479,11 +53479,11 @@ edge from   4471  To  4470  With Weights  1.79769313486232E+308
 The  index node4472
 Edges
 
-edge from   4472  To  4473  With Weights  101660620780478
+edge from   4472  To  4473  With Weights  27023709321393
 
-edge from   4472  To  4572  With Weights  1.79769313486232E+308
+edge from   4472  To  4572  With Weights  101660620780478
 
-edge from   4472  To  4372  With Weights  1.79769313486232E+308
+edge from   4472  To  4372  With Weights  101660620780478
 
 edge from   4472  To  4471  With Weights  1.79769313486232E+308
 
@@ -53491,13 +53491,13 @@ edge from   4472  To  4471  With Weights  1.79769313486232E+308
 The  index node4473
 Edges
 
-edge from   4473  To  4474  With Weights  27023709321393
+edge from   4473  To  4474  With Weights  1.79769313486232E+308
 
-edge from   4473  To  4573  With Weights  101660620780478
+edge from   4473  To  4573  With Weights  27023709321393
 
-edge from   4473  To  4373  With Weights  101660620780478
+edge from   4473  To  4373  With Weights  27023709321393
 
-edge from   4473  To  4472  With Weights  1.79769313486232E+308
+edge from   4473  To  4472  With Weights  101660620780478
 
 
 The  index node4474
@@ -53505,11 +53505,11 @@ Edges
 
 edge from   4474  To  4475  With Weights  1.79769313486232E+308
 
-edge from   4474  To  4574  With Weights  27023709321393
+edge from   4474  To  4574  With Weights  1.79769313486232E+308
 
-edge from   4474  To  4374  With Weights  27023709321393
+edge from   4474  To  4374  With Weights  1.79769313486232E+308
 
-edge from   4474  To  4473  With Weights  101660620780478
+edge from   4474  To  4473  With Weights  27023709321393
 
 
 The  index node4475
@@ -53521,7 +53521,7 @@ edge from   4475  To  4575  With Weights  1.79769313486232E+308
 
 edge from   4475  To  4375  With Weights  1.79769313486232E+308
 
-edge from   4475  To  4474  With Weights  27023709321393
+edge from   4475  To  4474  With Weights  1.79769313486232E+308
 
 
 The  index node4476
@@ -54665,7 +54665,7 @@ edge from   4570  To  4569  With Weights  1.79769313486232E+308
 The  index node4571
 Edges
 
-edge from   4571  To  4572  With Weights  1.79769313486232E+308
+edge from   4571  To  4572  With Weights  101660620780478
 
 edge from   4571  To  4671  With Weights  1.79769313486232E+308
 
@@ -54677,11 +54677,11 @@ edge from   4571  To  4570  With Weights  1.79769313486232E+308
 The  index node4572
 Edges
 
-edge from   4572  To  4573  With Weights  101660620780478
+edge from   4572  To  4573  With Weights  27023709321393
 
-edge from   4572  To  4672  With Weights  1.79769313486232E+308
+edge from   4572  To  4672  With Weights  101660620780478
 
-edge from   4572  To  4472  With Weights  1.79769313486232E+308
+edge from   4572  To  4472  With Weights  101660620780478
 
 edge from   4572  To  4571  With Weights  1.79769313486232E+308
 
@@ -54689,13 +54689,13 @@ edge from   4572  To  4571  With Weights  1.79769313486232E+308
 The  index node4573
 Edges
 
-edge from   4573  To  4574  With Weights  27023709321393
+edge from   4573  To  4574  With Weights  1.79769313486232E+308
 
-edge from   4573  To  4673  With Weights  101660620780478
+edge from   4573  To  4673  With Weights  27023709321393
 
-edge from   4573  To  4473  With Weights  101660620780478
+edge from   4573  To  4473  With Weights  27023709321393
 
-edge from   4573  To  4572  With Weights  1.79769313486232E+308
+edge from   4573  To  4572  With Weights  101660620780478
 
 
 The  index node4574
@@ -54703,11 +54703,11 @@ Edges
 
 edge from   4574  To  4575  With Weights  1.79769313486232E+308
 
-edge from   4574  To  4674  With Weights  27023709321393
+edge from   4574  To  4674  With Weights  1.79769313486232E+308
 
-edge from   4574  To  4474  With Weights  27023709321393
+edge from   4574  To  4474  With Weights  1.79769313486232E+308
 
-edge from   4574  To  4573  With Weights  101660620780478
+edge from   4574  To  4573  With Weights  27023709321393
 
 
 The  index node4575
@@ -54719,7 +54719,7 @@ edge from   4575  To  4675  With Weights  1.79769313486232E+308
 
 edge from   4575  To  4475  With Weights  1.79769313486232E+308
 
-edge from   4575  To  4574  With Weights  27023709321393
+edge from   4575  To  4574  With Weights  1.79769313486232E+308
 
 
 The  index node4576
@@ -55863,7 +55863,7 @@ edge from   4670  To  4669  With Weights  1.79769313486232E+308
 The  index node4671
 Edges
 
-edge from   4671  To  4672  With Weights  1.79769313486232E+308
+edge from   4671  To  4672  With Weights  101660620780478
 
 edge from   4671  To  4771  With Weights  1.79769313486232E+308
 
@@ -55875,11 +55875,11 @@ edge from   4671  To  4670  With Weights  1.79769313486232E+308
 The  index node4672
 Edges
 
-edge from   4672  To  4673  With Weights  101660620780478
+edge from   4672  To  4673  With Weights  27023709321393
 
-edge from   4672  To  4772  With Weights  1.79769313486232E+308
+edge from   4672  To  4772  With Weights  101660620780478
 
-edge from   4672  To  4572  With Weights  1.79769313486232E+308
+edge from   4672  To  4572  With Weights  101660620780478
 
 edge from   4672  To  4671  With Weights  1.79769313486232E+308
 
@@ -55887,13 +55887,13 @@ edge from   4672  To  4671  With Weights  1.79769313486232E+308
 The  index node4673
 Edges
 
-edge from   4673  To  4674  With Weights  27023709321393
+edge from   4673  To  4674  With Weights  1.79769313486232E+308
 
-edge from   4673  To  4773  With Weights  101660620780478
+edge from   4673  To  4773  With Weights  27023709321393
 
-edge from   4673  To  4573  With Weights  101660620780478
+edge from   4673  To  4573  With Weights  27023709321393
 
-edge from   4673  To  4672  With Weights  1.79769313486232E+308
+edge from   4673  To  4672  With Weights  101660620780478
 
 
 The  index node4674
@@ -55901,11 +55901,11 @@ Edges
 
 edge from   4674  To  4675  With Weights  1.79769313486232E+308
 
-edge from   4674  To  4774  With Weights  27023709321393
+edge from   4674  To  4774  With Weights  1.79769313486232E+308
 
-edge from   4674  To  4574  With Weights  27023709321393
+edge from   4674  To  4574  With Weights  1.79769313486232E+308
 
-edge from   4674  To  4673  With Weights  101660620780478
+edge from   4674  To  4673  With Weights  27023709321393
 
 
 The  index node4675
@@ -55917,7 +55917,7 @@ edge from   4675  To  4775  With Weights  1.79769313486232E+308
 
 edge from   4675  To  4575  With Weights  1.79769313486232E+308
 
-edge from   4675  To  4674  With Weights  27023709321393
+edge from   4675  To  4674  With Weights  1.79769313486232E+308
 
 
 The  index node4676
@@ -57061,7 +57061,7 @@ edge from   4770  To  4769  With Weights  1.79769313486232E+308
 The  index node4771
 Edges
 
-edge from   4771  To  4772  With Weights  1.79769313486232E+308
+edge from   4771  To  4772  With Weights  101660620780478
 
 edge from   4771  To  4871  With Weights  1.79769313486232E+308
 
@@ -57073,11 +57073,11 @@ edge from   4771  To  4770  With Weights  1.79769313486232E+308
 The  index node4772
 Edges
 
-edge from   4772  To  4773  With Weights  101660620780478
+edge from   4772  To  4773  With Weights  27023709321393
 
-edge from   4772  To  4872  With Weights  1.79769313486232E+308
+edge from   4772  To  4872  With Weights  101660620780478
 
-edge from   4772  To  4672  With Weights  1.79769313486232E+308
+edge from   4772  To  4672  With Weights  101660620780478
 
 edge from   4772  To  4771  With Weights  1.79769313486232E+308
 
@@ -57085,13 +57085,13 @@ edge from   4772  To  4771  With Weights  1.79769313486232E+308
 The  index node4773
 Edges
 
-edge from   4773  To  4774  With Weights  27023709321393
+edge from   4773  To  4774  With Weights  1.79769313486232E+308
 
-edge from   4773  To  4873  With Weights  101660620780478
+edge from   4773  To  4873  With Weights  27023709321393
 
-edge from   4773  To  4673  With Weights  101660620780478
+edge from   4773  To  4673  With Weights  27023709321393
 
-edge from   4773  To  4772  With Weights  1.79769313486232E+308
+edge from   4773  To  4772  With Weights  101660620780478
 
 
 The  index node4774
@@ -57099,11 +57099,11 @@ Edges
 
 edge from   4774  To  4775  With Weights  1.79769313486232E+308
 
-edge from   4774  To  4874  With Weights  27023709321393
+edge from   4774  To  4874  With Weights  1.79769313486232E+308
 
-edge from   4774  To  4674  With Weights  27023709321393
+edge from   4774  To  4674  With Weights  1.79769313486232E+308
 
-edge from   4774  To  4773  With Weights  101660620780478
+edge from   4774  To  4773  With Weights  27023709321393
 
 
 The  index node4775
@@ -57115,7 +57115,7 @@ edge from   4775  To  4875  With Weights  1.79769313486232E+308
 
 edge from   4775  To  4675  With Weights  1.79769313486232E+308
 
-edge from   4775  To  4774  With Weights  27023709321393
+edge from   4775  To  4774  With Weights  1.79769313486232E+308
 
 
 The  index node4776
@@ -58259,7 +58259,7 @@ edge from   4870  To  4869  With Weights  1.79769313486232E+308
 The  index node4871
 Edges
 
-edge from   4871  To  4872  With Weights  1.79769313486232E+308
+edge from   4871  To  4872  With Weights  101660620780478
 
 edge from   4871  To  4971  With Weights  1.79769313486232E+308
 
@@ -58271,11 +58271,11 @@ edge from   4871  To  4870  With Weights  1.79769313486232E+308
 The  index node4872
 Edges
 
-edge from   4872  To  4873  With Weights  101660620780478
+edge from   4872  To  4873  With Weights  27023709321393
 
-edge from   4872  To  4972  With Weights  1.79769313486232E+308
+edge from   4872  To  4972  With Weights  101660620780478
 
-edge from   4872  To  4772  With Weights  1.79769313486232E+308
+edge from   4872  To  4772  With Weights  101660620780478
 
 edge from   4872  To  4871  With Weights  1.79769313486232E+308
 
@@ -58283,13 +58283,13 @@ edge from   4872  To  4871  With Weights  1.79769313486232E+308
 The  index node4873
 Edges
 
-edge from   4873  To  4874  With Weights  27023709321393
+edge from   4873  To  4874  With Weights  1.79769313486232E+308
 
-edge from   4873  To  4973  With Weights  101660620780478
+edge from   4873  To  4973  With Weights  27023709321393
 
-edge from   4873  To  4773  With Weights  101660620780478
+edge from   4873  To  4773  With Weights  27023709321393
 
-edge from   4873  To  4872  With Weights  1.79769313486232E+308
+edge from   4873  To  4872  With Weights  101660620780478
 
 
 The  index node4874
@@ -58297,11 +58297,11 @@ Edges
 
 edge from   4874  To  4875  With Weights  1.79769313486232E+308
 
-edge from   4874  To  4974  With Weights  27023709321393
+edge from   4874  To  4974  With Weights  1.79769313486232E+308
 
-edge from   4874  To  4774  With Weights  27023709321393
+edge from   4874  To  4774  With Weights  1.79769313486232E+308
 
-edge from   4874  To  4873  With Weights  101660620780478
+edge from   4874  To  4873  With Weights  27023709321393
 
 
 The  index node4875
@@ -58313,7 +58313,7 @@ edge from   4875  To  4975  With Weights  1.79769313486232E+308
 
 edge from   4875  To  4775  With Weights  1.79769313486232E+308
 
-edge from   4875  To  4874  With Weights  27023709321393
+edge from   4875  To  4874  With Weights  1.79769313486232E+308
 
 
 The  index node4876
@@ -59457,7 +59457,7 @@ edge from   4970  To  4969  With Weights  1.79769313486232E+308
 The  index node4971
 Edges
 
-edge from   4971  To  4972  With Weights  1.79769313486232E+308
+edge from   4971  To  4972  With Weights  101660620780478
 
 edge from   4971  To  5071  With Weights  1.79769313486232E+308
 
@@ -59469,11 +59469,11 @@ edge from   4971  To  4970  With Weights  1.79769313486232E+308
 The  index node4972
 Edges
 
-edge from   4972  To  4973  With Weights  101660620780478
+edge from   4972  To  4973  With Weights  27023709321393
 
-edge from   4972  To  5072  With Weights  1.79769313486232E+308
+edge from   4972  To  5072  With Weights  101660620780478
 
-edge from   4972  To  4872  With Weights  1.79769313486232E+308
+edge from   4972  To  4872  With Weights  101660620780478
 
 edge from   4972  To  4971  With Weights  1.79769313486232E+308
 
@@ -59481,13 +59481,13 @@ edge from   4972  To  4971  With Weights  1.79769313486232E+308
 The  index node4973
 Edges
 
-edge from   4973  To  4974  With Weights  27023709321393
+edge from   4973  To  4974  With Weights  1.79769313486232E+308
 
-edge from   4973  To  5073  With Weights  101660620780478
+edge from   4973  To  5073  With Weights  27023709321393
 
-edge from   4973  To  4873  With Weights  101660620780478
+edge from   4973  To  4873  With Weights  27023709321393
 
-edge from   4973  To  4972  With Weights  1.79769313486232E+308
+edge from   4973  To  4972  With Weights  101660620780478
 
 
 The  index node4974
@@ -59495,11 +59495,11 @@ Edges
 
 edge from   4974  To  4975  With Weights  1.79769313486232E+308
 
-edge from   4974  To  5074  With Weights  27023709321393
+edge from   4974  To  5074  With Weights  1.79769313486232E+308
 
-edge from   4974  To  4874  With Weights  27023709321393
+edge from   4974  To  4874  With Weights  1.79769313486232E+308
 
-edge from   4974  To  4973  With Weights  101660620780478
+edge from   4974  To  4973  With Weights  27023709321393
 
 
 The  index node4975
@@ -59511,7 +59511,7 @@ edge from   4975  To  5075  With Weights  1.79769313486232E+308
 
 edge from   4975  To  4875  With Weights  1.79769313486232E+308
 
-edge from   4975  To  4974  With Weights  27023709321393
+edge from   4975  To  4974  With Weights  1.79769313486232E+308
 
 
 The  index node4976
@@ -60655,7 +60655,7 @@ edge from   5070  To  5069  With Weights  1.79769313486232E+308
 The  index node5071
 Edges
 
-edge from   5071  To  5072  With Weights  1.79769313486232E+308
+edge from   5071  To  5072  With Weights  101660620780478
 
 edge from   5071  To  5171  With Weights  1.79769313486232E+308
 
@@ -60667,11 +60667,11 @@ edge from   5071  To  5070  With Weights  1.79769313486232E+308
 The  index node5072
 Edges
 
-edge from   5072  To  5073  With Weights  101660620780478
+edge from   5072  To  5073  With Weights  27023709321393
 
-edge from   5072  To  5172  With Weights  1.79769313486232E+308
+edge from   5072  To  5172  With Weights  101660620780478
 
-edge from   5072  To  4972  With Weights  1.79769313486232E+308
+edge from   5072  To  4972  With Weights  101660620780478
 
 edge from   5072  To  5071  With Weights  1.79769313486232E+308
 
@@ -60679,13 +60679,13 @@ edge from   5072  To  5071  With Weights  1.79769313486232E+308
 The  index node5073
 Edges
 
-edge from   5073  To  5074  With Weights  27023709321393
+edge from   5073  To  5074  With Weights  1.79769313486232E+308
 
-edge from   5073  To  5173  With Weights  101660620780478
+edge from   5073  To  5173  With Weights  27023709321393
 
-edge from   5073  To  4973  With Weights  101660620780478
+edge from   5073  To  4973  With Weights  27023709321393
 
-edge from   5073  To  5072  With Weights  1.79769313486232E+308
+edge from   5073  To  5072  With Weights  101660620780478
 
 
 The  index node5074
@@ -60693,11 +60693,11 @@ Edges
 
 edge from   5074  To  5075  With Weights  1.79769313486232E+308
 
-edge from   5074  To  5174  With Weights  27023709321393
+edge from   5074  To  5174  With Weights  1.79769313486232E+308
 
-edge from   5074  To  4974  With Weights  27023709321393
+edge from   5074  To  4974  With Weights  1.79769313486232E+308
 
-edge from   5074  To  5073  With Weights  101660620780478
+edge from   5074  To  5073  With Weights  27023709321393
 
 
 The  index node5075
@@ -60709,7 +60709,7 @@ edge from   5075  To  5175  With Weights  1.79769313486232E+308
 
 edge from   5075  To  4975  With Weights  1.79769313486232E+308
 
-edge from   5075  To  5074  With Weights  27023709321393
+edge from   5075  To  5074  With Weights  1.79769313486232E+308
 
 
 The  index node5076
@@ -61853,7 +61853,7 @@ edge from   5170  To  5169  With Weights  1.79769313486232E+308
 The  index node5171
 Edges
 
-edge from   5171  To  5172  With Weights  1.79769313486232E+308
+edge from   5171  To  5172  With Weights  101660620780478
 
 edge from   5171  To  5271  With Weights  1.79769313486232E+308
 
@@ -61865,11 +61865,11 @@ edge from   5171  To  5170  With Weights  1.79769313486232E+308
 The  index node5172
 Edges
 
-edge from   5172  To  5173  With Weights  101660620780478
+edge from   5172  To  5173  With Weights  27023709321393
 
-edge from   5172  To  5272  With Weights  1.79769313486232E+308
+edge from   5172  To  5272  With Weights  101660620780478
 
-edge from   5172  To  5072  With Weights  1.79769313486232E+308
+edge from   5172  To  5072  With Weights  101660620780478
 
 edge from   5172  To  5171  With Weights  1.79769313486232E+308
 
@@ -61877,13 +61877,13 @@ edge from   5172  To  5171  With Weights  1.79769313486232E+308
 The  index node5173
 Edges
 
-edge from   5173  To  5174  With Weights  27023709321393
+edge from   5173  To  5174  With Weights  1.79769313486232E+308
 
-edge from   5173  To  5273  With Weights  101660620780478
+edge from   5173  To  5273  With Weights  27023709321393
 
-edge from   5173  To  5073  With Weights  101660620780478
+edge from   5173  To  5073  With Weights  27023709321393
 
-edge from   5173  To  5172  With Weights  1.79769313486232E+308
+edge from   5173  To  5172  With Weights  101660620780478
 
 
 The  index node5174
@@ -61891,11 +61891,11 @@ Edges
 
 edge from   5174  To  5175  With Weights  1.79769313486232E+308
 
-edge from   5174  To  5274  With Weights  27023709321393
+edge from   5174  To  5274  With Weights  0.00496401092082403
 
-edge from   5174  To  5074  With Weights  27023709321393
+edge from   5174  To  5074  With Weights  1.79769313486232E+308
 
-edge from   5174  To  5173  With Weights  101660620780478
+edge from   5174  To  5173  With Weights  27023709321393
 
 
 The  index node5175
@@ -61903,11 +61903,11 @@ Edges
 
 edge from   5175  To  5176  With Weights  1.79769313486232E+308
 
-edge from   5175  To  5275  With Weights  1.79769313486232E+308
+edge from   5175  To  5275  With Weights  0.00496401092082403
 
 edge from   5175  To  5075  With Weights  1.79769313486232E+308
 
-edge from   5175  To  5174  With Weights  27023709321393
+edge from   5175  To  5174  With Weights  1.79769313486232E+308
 
 
 The  index node5176
@@ -61915,7 +61915,7 @@ Edges
 
 edge from   5176  To  5177  With Weights  1.79769313486232E+308
 
-edge from   5176  To  5276  With Weights  1.79769313486232E+308
+edge from   5176  To  5276  With Weights  0.00496401092082403
 
 edge from   5176  To  5076  With Weights  1.79769313486232E+308
 
@@ -61927,7 +61927,7 @@ Edges
 
 edge from   5177  To  5178  With Weights  1.79769313486232E+308
 
-edge from   5177  To  5277  With Weights  1.79769313486232E+308
+edge from   5177  To  5277  With Weights  0.00496401092082403
 
 edge from   5177  To  5077  With Weights  1.79769313486232E+308
 
@@ -61939,7 +61939,7 @@ Edges
 
 edge from   5178  To  5179  With Weights  1.79769313486232E+308
 
-edge from   5178  To  5278  With Weights  1.79769313486232E+308
+edge from   5178  To  5278  With Weights  0.00496401092082403
 
 edge from   5178  To  5078  With Weights  1.79769313486232E+308
 
@@ -61951,7 +61951,7 @@ Edges
 
 edge from   5179  To  5180  With Weights  1.79769313486232E+308
 
-edge from   5179  To  5279  With Weights  1.79769313486232E+308
+edge from   5179  To  5279  With Weights  0.00496401092082403
 
 edge from   5179  To  5079  With Weights  1.79769313486232E+308
 
@@ -63051,7 +63051,7 @@ edge from   5270  To  5269  With Weights  1.79769313486232E+308
 The  index node5271
 Edges
 
-edge from   5271  To  5272  With Weights  1.79769313486232E+308
+edge from   5271  To  5272  With Weights  101660620780478
 
 edge from   5271  To  5371  With Weights  1.79769313486232E+308
 
@@ -63063,11 +63063,11 @@ edge from   5271  To  5270  With Weights  1.79769313486232E+308
 The  index node5272
 Edges
 
-edge from   5272  To  5273  With Weights  101660620780478
+edge from   5272  To  5273  With Weights  27023709321393
 
-edge from   5272  To  5372  With Weights  1.79769313486232E+308
+edge from   5272  To  5372  With Weights  101660620780478
 
-edge from   5272  To  5172  With Weights  1.79769313486232E+308
+edge from   5272  To  5172  With Weights  101660620780478
 
 edge from   5272  To  5271  With Weights  1.79769313486232E+308
 
@@ -63075,73 +63075,73 @@ edge from   5272  To  5271  With Weights  1.79769313486232E+308
 The  index node5273
 Edges
 
-edge from   5273  To  5274  With Weights  27023709321393
+edge from   5273  To  5274  With Weights  0.00496401092082403
 
-edge from   5273  To  5373  With Weights  101660620780478
+edge from   5273  To  5373  With Weights  0.0186741363211951
 
-edge from   5273  To  5173  With Weights  101660620780478
+edge from   5273  To  5173  With Weights  27023709321393
 
-edge from   5273  To  5272  With Weights  1.79769313486232E+308
+edge from   5273  To  5272  With Weights  101660620780478
 
 
 The  index node5274
 Edges
 
-edge from   5274  To  5275  With Weights  1.79769313486232E+308
+edge from   5274  To  5275  With Weights  0.00496401092082403
 
-edge from   5274  To  5374  With Weights  27023709321393
+edge from   5274  To  5374  With Weights  0.00496401092082403
 
-edge from   5274  To  5174  With Weights  27023709321393
+edge from   5274  To  5174  With Weights  1.79769313486232E+308
 
-edge from   5274  To  5273  With Weights  101660620780478
+edge from   5274  To  5273  With Weights  27023709321393
 
 
 The  index node5275
 Edges
 
-edge from   5275  To  5276  With Weights  1.79769313486232E+308
+edge from   5275  To  5276  With Weights  0.00496401092082403
 
-edge from   5275  To  5375  With Weights  1.79769313486232E+308
+edge from   5275  To  5375  With Weights  0.00496401092082403
 
 edge from   5275  To  5175  With Weights  1.79769313486232E+308
 
-edge from   5275  To  5274  With Weights  27023709321393
+edge from   5275  To  5274  With Weights  0.00496401092082403
 
 
 The  index node5276
 Edges
 
-edge from   5276  To  5277  With Weights  1.79769313486232E+308
+edge from   5276  To  5277  With Weights  0.00496401092082403
 
-edge from   5276  To  5376  With Weights  1.79769313486232E+308
+edge from   5276  To  5376  With Weights  0.00496401092082403
 
 edge from   5276  To  5176  With Weights  1.79769313486232E+308
 
-edge from   5276  To  5275  With Weights  1.79769313486232E+308
+edge from   5276  To  5275  With Weights  0.00496401092082403
 
 
 The  index node5277
 Edges
 
-edge from   5277  To  5278  With Weights  1.79769313486232E+308
+edge from   5277  To  5278  With Weights  0.00496401092082403
 
-edge from   5277  To  5377  With Weights  1.79769313486232E+308
+edge from   5277  To  5377  With Weights  0.00496401092082403
 
 edge from   5277  To  5177  With Weights  1.79769313486232E+308
 
-edge from   5277  To  5276  With Weights  1.79769313486232E+308
+edge from   5277  To  5276  With Weights  0.00496401092082403
 
 
 The  index node5278
 Edges
 
-edge from   5278  To  5279  With Weights  1.79769313486232E+308
+edge from   5278  To  5279  With Weights  0.00496401092082403
 
-edge from   5278  To  5378  With Weights  1.79769313486232E+308
+edge from   5278  To  5378  With Weights  0.00496401092082403
 
 edge from   5278  To  5178  With Weights  1.79769313486232E+308
 
-edge from   5278  To  5277  With Weights  1.79769313486232E+308
+edge from   5278  To  5277  With Weights  0.00496401092082403
 
 
 The  index node5279
@@ -63149,11 +63149,11 @@ Edges
 
 edge from   5279  To  5280  With Weights  1.79769313486232E+308
 
-edge from   5279  To  5379  With Weights  1.79769313486232E+308
+edge from   5279  To  5379  With Weights  27023709321393
 
 edge from   5279  To  5179  With Weights  1.79769313486232E+308
 
-edge from   5279  To  5278  With Weights  1.79769313486232E+308
+edge from   5279  To  5278  With Weights  0.00496401092082403
 
 
 The  index node5280
@@ -63165,7 +63165,7 @@ edge from   5280  To  5380  With Weights  1.79769313486232E+308
 
 edge from   5280  To  5180  With Weights  1.79769313486232E+308
 
-edge from   5280  To  5279  With Weights  1.79769313486232E+308
+edge from   5280  To  5279  With Weights  0.00496401092082403
 
 
 The  index node5281
@@ -64249,7 +64249,7 @@ edge from   5370  To  5369  With Weights  1.79769313486232E+308
 The  index node5371
 Edges
 
-edge from   5371  To  5372  With Weights  1.79769313486232E+308
+edge from   5371  To  5372  With Weights  101660620780478
 
 edge from   5371  To  5471  With Weights  1.79769313486232E+308
 
@@ -64261,11 +64261,11 @@ edge from   5371  To  5370  With Weights  1.79769313486232E+308
 The  index node5372
 Edges
 
-edge from   5372  To  5373  With Weights  101660620780478
+edge from   5372  To  5373  With Weights  0.0186741363211951
 
 edge from   5372  To  5472  With Weights  1.79769313486232E+308
 
-edge from   5372  To  5272  With Weights  1.79769313486232E+308
+edge from   5372  To  5272  With Weights  101660620780478
 
 edge from   5372  To  5371  With Weights  1.79769313486232E+308
 
@@ -64273,73 +64273,73 @@ edge from   5372  To  5371  With Weights  1.79769313486232E+308
 The  index node5373
 Edges
 
-edge from   5373  To  5374  With Weights  27023709321393
+edge from   5373  To  5374  With Weights  0.00496401092082403
 
-edge from   5373  To  5473  With Weights  101660620780478
+edge from   5373  To  5473  With Weights  21348730363900.5
 
-edge from   5373  To  5273  With Weights  101660620780478
+edge from   5373  To  5273  With Weights  27023709321393
 
-edge from   5373  To  5372  With Weights  1.79769313486232E+308
+edge from   5373  To  5372  With Weights  101660620780478
 
 
 The  index node5374
 Edges
 
-edge from   5374  To  5375  With Weights  1.79769313486232E+308
+edge from   5374  To  5375  With Weights  0.00496401092082403
 
-edge from   5374  To  5474  With Weights  27023709321393
+edge from   5374  To  5474  With Weights  1.79769313486232E+308
 
-edge from   5374  To  5274  With Weights  27023709321393
+edge from   5374  To  5274  With Weights  0.00496401092082403
 
-edge from   5374  To  5373  With Weights  101660620780478
+edge from   5374  To  5373  With Weights  0.0186741363211951
 
 
 The  index node5375
 Edges
 
-edge from   5375  To  5376  With Weights  1.79769313486232E+308
+edge from   5375  To  5376  With Weights  0.00496401092082403
 
 edge from   5375  To  5475  With Weights  1.79769313486232E+308
 
-edge from   5375  To  5275  With Weights  1.79769313486232E+308
+edge from   5375  To  5275  With Weights  0.00496401092082403
 
-edge from   5375  To  5374  With Weights  27023709321393
+edge from   5375  To  5374  With Weights  0.00496401092082403
 
 
 The  index node5376
 Edges
 
-edge from   5376  To  5377  With Weights  1.79769313486232E+308
+edge from   5376  To  5377  With Weights  0.00496401092082403
 
 edge from   5376  To  5476  With Weights  1.79769313486232E+308
 
-edge from   5376  To  5276  With Weights  1.79769313486232E+308
+edge from   5376  To  5276  With Weights  0.00496401092082403
 
-edge from   5376  To  5375  With Weights  1.79769313486232E+308
+edge from   5376  To  5375  With Weights  0.00496401092082403
 
 
 The  index node5377
 Edges
 
-edge from   5377  To  5378  With Weights  1.79769313486232E+308
+edge from   5377  To  5378  With Weights  0.00496401092082403
 
 edge from   5377  To  5477  With Weights  1.79769313486232E+308
 
-edge from   5377  To  5277  With Weights  1.79769313486232E+308
+edge from   5377  To  5277  With Weights  0.00496401092082403
 
-edge from   5377  To  5376  With Weights  1.79769313486232E+308
+edge from   5377  To  5376  With Weights  0.00496401092082403
 
 
 The  index node5378
 Edges
 
-edge from   5378  To  5379  With Weights  1.79769313486232E+308
+edge from   5378  To  5379  With Weights  27023709321393
 
-edge from   5378  To  5478  With Weights  1.79769313486232E+308
+edge from   5378  To  5478  With Weights  81071127964178.9
 
-edge from   5378  To  5278  With Weights  1.79769313486232E+308
+edge from   5378  To  5278  With Weights  0.00496401092082403
 
-edge from   5378  To  5377  With Weights  1.79769313486232E+308
+edge from   5378  To  5377  With Weights  0.00496401092082403
 
 
 The  index node5379
@@ -64347,11 +64347,11 @@ Edges
 
 edge from   5379  To  5380  With Weights  1.79769313486232E+308
 
-edge from   5379  To  5479  With Weights  1.79769313486232E+308
+edge from   5379  To  5479  With Weights  27023709321393
 
-edge from   5379  To  5279  With Weights  1.79769313486232E+308
+edge from   5379  To  5279  With Weights  0.00496401092082403
 
-edge from   5379  To  5378  With Weights  1.79769313486232E+308
+edge from   5379  To  5378  With Weights  0.00496401092082403
 
 
 The  index node5380
@@ -64363,7 +64363,7 @@ edge from   5380  To  5480  With Weights  1.79769313486232E+308
 
 edge from   5380  To  5280  With Weights  1.79769313486232E+308
 
-edge from   5380  To  5379  With Weights  1.79769313486232E+308
+edge from   5380  To  5379  With Weights  27023709321393
 
 
 The  index node5381
@@ -65459,11 +65459,11 @@ edge from   5471  To  5470  With Weights  1.79769313486232E+308
 The  index node5472
 Edges
 
-edge from   5472  To  5473  With Weights  101660620780478
+edge from   5472  To  5473  With Weights  21348730363900.5
 
 edge from   5472  To  5572  With Weights  1.79769313486232E+308
 
-edge from   5472  To  5372  With Weights  1.79769313486232E+308
+edge from   5472  To  5372  With Weights  101660620780478
 
 edge from   5472  To  5471  With Weights  1.79769313486232E+308
 
@@ -65471,11 +65471,11 @@ edge from   5472  To  5471  With Weights  1.79769313486232E+308
 The  index node5473
 Edges
 
-edge from   5473  To  5474  With Weights  27023709321393
+edge from   5473  To  5474  With Weights  1.79769313486232E+308
 
-edge from   5473  To  5573  With Weights  101660620780478
+edge from   5473  To  5573  With Weights  21348730363900.5
 
-edge from   5473  To  5373  With Weights  101660620780478
+edge from   5473  To  5373  With Weights  0.0186741363211951
 
 edge from   5473  To  5472  With Weights  1.79769313486232E+308
 
@@ -65485,11 +65485,11 @@ Edges
 
 edge from   5474  To  5475  With Weights  1.79769313486232E+308
 
-edge from   5474  To  5574  With Weights  27023709321393
+edge from   5474  To  5574  With Weights  1.79769313486232E+308
 
-edge from   5474  To  5374  With Weights  27023709321393
+edge from   5474  To  5374  With Weights  0.00496401092082403
 
-edge from   5474  To  5473  With Weights  101660620780478
+edge from   5474  To  5473  With Weights  21348730363900.5
 
 
 The  index node5475
@@ -65499,9 +65499,9 @@ edge from   5475  To  5476  With Weights  1.79769313486232E+308
 
 edge from   5475  To  5575  With Weights  1.79769313486232E+308
 
-edge from   5475  To  5375  With Weights  1.79769313486232E+308
+edge from   5475  To  5375  With Weights  0.00496401092082403
 
-edge from   5475  To  5474  With Weights  27023709321393
+edge from   5475  To  5474  With Weights  1.79769313486232E+308
 
 
 The  index node5476
@@ -65511,7 +65511,7 @@ edge from   5476  To  5477  With Weights  1.79769313486232E+308
 
 edge from   5476  To  5576  With Weights  1.79769313486232E+308
 
-edge from   5476  To  5376  With Weights  1.79769313486232E+308
+edge from   5476  To  5376  With Weights  0.00496401092082403
 
 edge from   5476  To  5475  With Weights  1.79769313486232E+308
 
@@ -65519,11 +65519,11 @@ edge from   5476  To  5475  With Weights  1.79769313486232E+308
 The  index node5477
 Edges
 
-edge from   5477  To  5478  With Weights  1.79769313486232E+308
+edge from   5477  To  5478  With Weights  81071127964178.9
 
 edge from   5477  To  5577  With Weights  1.79769313486232E+308
 
-edge from   5477  To  5377  With Weights  1.79769313486232E+308
+edge from   5477  To  5377  With Weights  0.00496401092082403
 
 edge from   5477  To  5476  With Weights  1.79769313486232E+308
 
@@ -65531,11 +65531,11 @@ edge from   5477  To  5476  With Weights  1.79769313486232E+308
 The  index node5478
 Edges
 
-edge from   5478  To  5479  With Weights  1.79769313486232E+308
+edge from   5478  To  5479  With Weights  27023709321393
 
-edge from   5478  To  5578  With Weights  1.79769313486232E+308
+edge from   5478  To  5578  With Weights  81071127964178.9
 
-edge from   5478  To  5378  With Weights  1.79769313486232E+308
+edge from   5478  To  5378  With Weights  0.00496401092082403
 
 edge from   5478  To  5477  With Weights  1.79769313486232E+308
 
@@ -65545,11 +65545,11 @@ Edges
 
 edge from   5479  To  5480  With Weights  1.79769313486232E+308
 
-edge from   5479  To  5579  With Weights  1.79769313486232E+308
+edge from   5479  To  5579  With Weights  27023709321393
 
-edge from   5479  To  5379  With Weights  1.79769313486232E+308
+edge from   5479  To  5379  With Weights  27023709321393
 
-edge from   5479  To  5478  With Weights  1.79769313486232E+308
+edge from   5479  To  5478  With Weights  81071127964178.9
 
 
 The  index node5480
@@ -65561,7 +65561,7 @@ edge from   5480  To  5580  With Weights  1.79769313486232E+308
 
 edge from   5480  To  5380  With Weights  1.79769313486232E+308
 
-edge from   5480  To  5479  With Weights  1.79769313486232E+308
+edge from   5480  To  5479  With Weights  27023709321393
 
 
 The  index node5481
@@ -66657,7 +66657,7 @@ edge from   5571  To  5570  With Weights  1.79769313486232E+308
 The  index node5572
 Edges
 
-edge from   5572  To  5573  With Weights  101660620780478
+edge from   5572  To  5573  With Weights  21348730363900.5
 
 edge from   5572  To  5672  With Weights  1.79769313486232E+308
 
@@ -66669,11 +66669,11 @@ edge from   5572  To  5571  With Weights  1.79769313486232E+308
 The  index node5573
 Edges
 
-edge from   5573  To  5574  With Weights  27023709321393
+edge from   5573  To  5574  With Weights  1.79769313486232E+308
 
-edge from   5573  To  5673  With Weights  101660620780478
+edge from   5573  To  5673  With Weights  21348730363900.5
 
-edge from   5573  To  5473  With Weights  101660620780478
+edge from   5573  To  5473  With Weights  21348730363900.5
 
 edge from   5573  To  5572  With Weights  1.79769313486232E+308
 
@@ -66683,11 +66683,11 @@ Edges
 
 edge from   5574  To  5575  With Weights  1.79769313486232E+308
 
-edge from   5574  To  5674  With Weights  27023709321393
+edge from   5574  To  5674  With Weights  1.79769313486232E+308
 
-edge from   5574  To  5474  With Weights  27023709321393
+edge from   5574  To  5474  With Weights  1.79769313486232E+308
 
-edge from   5574  To  5573  With Weights  101660620780478
+edge from   5574  To  5573  With Weights  21348730363900.5
 
 
 The  index node5575
@@ -66699,7 +66699,7 @@ edge from   5575  To  5675  With Weights  1.79769313486232E+308
 
 edge from   5575  To  5475  With Weights  1.79769313486232E+308
 
-edge from   5575  To  5574  With Weights  27023709321393
+edge from   5575  To  5574  With Weights  1.79769313486232E+308
 
 
 The  index node5576
@@ -66717,7 +66717,7 @@ edge from   5576  To  5575  With Weights  1.79769313486232E+308
 The  index node5577
 Edges
 
-edge from   5577  To  5578  With Weights  1.79769313486232E+308
+edge from   5577  To  5578  With Weights  81071127964178.9
 
 edge from   5577  To  5677  With Weights  1.79769313486232E+308
 
@@ -66729,11 +66729,11 @@ edge from   5577  To  5576  With Weights  1.79769313486232E+308
 The  index node5578
 Edges
 
-edge from   5578  To  5579  With Weights  1.79769313486232E+308
+edge from   5578  To  5579  With Weights  27023709321393
 
-edge from   5578  To  5678  With Weights  1.79769313486232E+308
+edge from   5578  To  5678  With Weights  81071127964178.9
 
-edge from   5578  To  5478  With Weights  1.79769313486232E+308
+edge from   5578  To  5478  With Weights  81071127964178.9
 
 edge from   5578  To  5577  With Weights  1.79769313486232E+308
 
@@ -66743,11 +66743,11 @@ Edges
 
 edge from   5579  To  5580  With Weights  1.79769313486232E+308
 
-edge from   5579  To  5679  With Weights  1.79769313486232E+308
+edge from   5579  To  5679  With Weights  27023709321393
 
-edge from   5579  To  5479  With Weights  1.79769313486232E+308
+edge from   5579  To  5479  With Weights  27023709321393
 
-edge from   5579  To  5578  With Weights  1.79769313486232E+308
+edge from   5579  To  5578  With Weights  81071127964178.9
 
 
 The  index node5580
@@ -66759,7 +66759,7 @@ edge from   5580  To  5680  With Weights  1.79769313486232E+308
 
 edge from   5580  To  5480  With Weights  1.79769313486232E+308
 
-edge from   5580  To  5579  With Weights  1.79769313486232E+308
+edge from   5580  To  5579  With Weights  27023709321393
 
 
 The  index node5581
@@ -67855,7 +67855,7 @@ edge from   5671  To  5670  With Weights  1.79769313486232E+308
 The  index node5672
 Edges
 
-edge from   5672  To  5673  With Weights  101660620780478
+edge from   5672  To  5673  With Weights  21348730363900.5
 
 edge from   5672  To  5772  With Weights  1.79769313486232E+308
 
@@ -67867,11 +67867,11 @@ edge from   5672  To  5671  With Weights  1.79769313486232E+308
 The  index node5673
 Edges
 
-edge from   5673  To  5674  With Weights  27023709321393
+edge from   5673  To  5674  With Weights  1.79769313486232E+308
 
-edge from   5673  To  5773  With Weights  101660620780478
+edge from   5673  To  5773  With Weights  21348730363900.5
 
-edge from   5673  To  5573  With Weights  101660620780478
+edge from   5673  To  5573  With Weights  21348730363900.5
 
 edge from   5673  To  5672  With Weights  1.79769313486232E+308
 
@@ -67881,11 +67881,11 @@ Edges
 
 edge from   5674  To  5675  With Weights  1.79769313486232E+308
 
-edge from   5674  To  5774  With Weights  27023709321393
+edge from   5674  To  5774  With Weights  1.79769313486232E+308
 
-edge from   5674  To  5574  With Weights  27023709321393
+edge from   5674  To  5574  With Weights  1.79769313486232E+308
 
-edge from   5674  To  5673  With Weights  101660620780478
+edge from   5674  To  5673  With Weights  21348730363900.5
 
 
 The  index node5675
@@ -67897,7 +67897,7 @@ edge from   5675  To  5775  With Weights  1.79769313486232E+308
 
 edge from   5675  To  5575  With Weights  1.79769313486232E+308
 
-edge from   5675  To  5674  With Weights  27023709321393
+edge from   5675  To  5674  With Weights  1.79769313486232E+308
 
 
 The  index node5676
@@ -67915,7 +67915,7 @@ edge from   5676  To  5675  With Weights  1.79769313486232E+308
 The  index node5677
 Edges
 
-edge from   5677  To  5678  With Weights  1.79769313486232E+308
+edge from   5677  To  5678  With Weights  81071127964178.9
 
 edge from   5677  To  5777  With Weights  1.79769313486232E+308
 
@@ -67927,11 +67927,11 @@ edge from   5677  To  5676  With Weights  1.79769313486232E+308
 The  index node5678
 Edges
 
-edge from   5678  To  5679  With Weights  1.79769313486232E+308
+edge from   5678  To  5679  With Weights  27023709321393
 
-edge from   5678  To  5778  With Weights  1.79769313486232E+308
+edge from   5678  To  5778  With Weights  81071127964178.9
 
-edge from   5678  To  5578  With Weights  1.79769313486232E+308
+edge from   5678  To  5578  With Weights  81071127964178.9
 
 edge from   5678  To  5677  With Weights  1.79769313486232E+308
 
@@ -67941,11 +67941,11 @@ Edges
 
 edge from   5679  To  5680  With Weights  1.79769313486232E+308
 
-edge from   5679  To  5779  With Weights  1.79769313486232E+308
+edge from   5679  To  5779  With Weights  27023709321393
 
-edge from   5679  To  5579  With Weights  1.79769313486232E+308
+edge from   5679  To  5579  With Weights  27023709321393
 
-edge from   5679  To  5678  With Weights  1.79769313486232E+308
+edge from   5679  To  5678  With Weights  81071127964178.9
 
 
 The  index node5680
@@ -67957,7 +67957,7 @@ edge from   5680  To  5780  With Weights  1.79769313486232E+308
 
 edge from   5680  To  5580  With Weights  1.79769313486232E+308
 
-edge from   5680  To  5679  With Weights  1.79769313486232E+308
+edge from   5680  To  5679  With Weights  27023709321393
 
 
 The  index node5681
@@ -69053,7 +69053,7 @@ edge from   5771  To  5770  With Weights  1.79769313486232E+308
 The  index node5772
 Edges
 
-edge from   5772  To  5773  With Weights  101660620780478
+edge from   5772  To  5773  With Weights  21348730363900.5
 
 edge from   5772  To  5872  With Weights  1.79769313486232E+308
 
@@ -69065,11 +69065,11 @@ edge from   5772  To  5771  With Weights  1.79769313486232E+308
 The  index node5773
 Edges
 
-edge from   5773  To  5774  With Weights  27023709321393
+edge from   5773  To  5774  With Weights  1.79769313486232E+308
 
-edge from   5773  To  5873  With Weights  101660620780478
+edge from   5773  To  5873  With Weights  21348730363900.5
 
-edge from   5773  To  5673  With Weights  101660620780478
+edge from   5773  To  5673  With Weights  21348730363900.5
 
 edge from   5773  To  5772  With Weights  1.79769313486232E+308
 
@@ -69079,11 +69079,11 @@ Edges
 
 edge from   5774  To  5775  With Weights  1.79769313486232E+308
 
-edge from   5774  To  5874  With Weights  27023709321393
+edge from   5774  To  5874  With Weights  1.79769313486232E+308
 
-edge from   5774  To  5674  With Weights  27023709321393
+edge from   5774  To  5674  With Weights  1.79769313486232E+308
 
-edge from   5774  To  5773  With Weights  101660620780478
+edge from   5774  To  5773  With Weights  21348730363900.5
 
 
 The  index node5775
@@ -69095,7 +69095,7 @@ edge from   5775  To  5875  With Weights  1.79769313486232E+308
 
 edge from   5775  To  5675  With Weights  1.79769313486232E+308
 
-edge from   5775  To  5774  With Weights  27023709321393
+edge from   5775  To  5774  With Weights  1.79769313486232E+308
 
 
 The  index node5776
@@ -69113,7 +69113,7 @@ edge from   5776  To  5775  With Weights  1.79769313486232E+308
 The  index node5777
 Edges
 
-edge from   5777  To  5778  With Weights  1.79769313486232E+308
+edge from   5777  To  5778  With Weights  81071127964178.9
 
 edge from   5777  To  5877  With Weights  1.79769313486232E+308
 
@@ -69125,11 +69125,11 @@ edge from   5777  To  5776  With Weights  1.79769313486232E+308
 The  index node5778
 Edges
 
-edge from   5778  To  5779  With Weights  1.79769313486232E+308
+edge from   5778  To  5779  With Weights  27023709321393
 
-edge from   5778  To  5878  With Weights  1.79769313486232E+308
+edge from   5778  To  5878  With Weights  81071127964178.9
 
-edge from   5778  To  5678  With Weights  1.79769313486232E+308
+edge from   5778  To  5678  With Weights  81071127964178.9
 
 edge from   5778  To  5777  With Weights  1.79769313486232E+308
 
@@ -69139,11 +69139,11 @@ Edges
 
 edge from   5779  To  5780  With Weights  1.79769313486232E+308
 
-edge from   5779  To  5879  With Weights  1.79769313486232E+308
+edge from   5779  To  5879  With Weights  27023709321393
 
-edge from   5779  To  5679  With Weights  1.79769313486232E+308
+edge from   5779  To  5679  With Weights  27023709321393
 
-edge from   5779  To  5778  With Weights  1.79769313486232E+308
+edge from   5779  To  5778  With Weights  81071127964178.9
 
 
 The  index node5780
@@ -69155,7 +69155,7 @@ edge from   5780  To  5880  With Weights  1.79769313486232E+308
 
 edge from   5780  To  5680  With Weights  1.79769313486232E+308
 
-edge from   5780  To  5779  With Weights  1.79769313486232E+308
+edge from   5780  To  5779  With Weights  27023709321393
 
 
 The  index node5781
@@ -70251,7 +70251,7 @@ edge from   5871  To  5870  With Weights  1.79769313486232E+308
 The  index node5872
 Edges
 
-edge from   5872  To  5873  With Weights  101660620780478
+edge from   5872  To  5873  With Weights  21348730363900.5
 
 edge from   5872  To  5972  With Weights  1.79769313486232E+308
 
@@ -70263,11 +70263,11 @@ edge from   5872  To  5871  With Weights  1.79769313486232E+308
 The  index node5873
 Edges
 
-edge from   5873  To  5874  With Weights  27023709321393
+edge from   5873  To  5874  With Weights  1.79769313486232E+308
 
-edge from   5873  To  5973  With Weights  101660620780478
+edge from   5873  To  5973  With Weights  21348730363900.5
 
-edge from   5873  To  5773  With Weights  101660620780478
+edge from   5873  To  5773  With Weights  21348730363900.5
 
 edge from   5873  To  5872  With Weights  1.79769313486232E+308
 
@@ -70277,11 +70277,11 @@ Edges
 
 edge from   5874  To  5875  With Weights  1.79769313486232E+308
 
-edge from   5874  To  5974  With Weights  27023709321393
+edge from   5874  To  5974  With Weights  1.79769313486232E+308
 
-edge from   5874  To  5774  With Weights  27023709321393
+edge from   5874  To  5774  With Weights  1.79769313486232E+308
 
-edge from   5874  To  5873  With Weights  101660620780478
+edge from   5874  To  5873  With Weights  21348730363900.5
 
 
 The  index node5875
@@ -70293,7 +70293,7 @@ edge from   5875  To  5975  With Weights  1.79769313486232E+308
 
 edge from   5875  To  5775  With Weights  1.79769313486232E+308
 
-edge from   5875  To  5874  With Weights  27023709321393
+edge from   5875  To  5874  With Weights  1.79769313486232E+308
 
 
 The  index node5876
@@ -70311,7 +70311,7 @@ edge from   5876  To  5875  With Weights  1.79769313486232E+308
 The  index node5877
 Edges
 
-edge from   5877  To  5878  With Weights  1.79769313486232E+308
+edge from   5877  To  5878  With Weights  81071127964178.9
 
 edge from   5877  To  5977  With Weights  1.79769313486232E+308
 
@@ -70323,11 +70323,11 @@ edge from   5877  To  5876  With Weights  1.79769313486232E+308
 The  index node5878
 Edges
 
-edge from   5878  To  5879  With Weights  1.79769313486232E+308
+edge from   5878  To  5879  With Weights  27023709321393
 
-edge from   5878  To  5978  With Weights  1.79769313486232E+308
+edge from   5878  To  5978  With Weights  81071127964178.9
 
-edge from   5878  To  5778  With Weights  1.79769313486232E+308
+edge from   5878  To  5778  With Weights  81071127964178.9
 
 edge from   5878  To  5877  With Weights  1.79769313486232E+308
 
@@ -70337,11 +70337,11 @@ Edges
 
 edge from   5879  To  5880  With Weights  1.79769313486232E+308
 
-edge from   5879  To  5979  With Weights  1.79769313486232E+308
+edge from   5879  To  5979  With Weights  27023709321393
 
-edge from   5879  To  5779  With Weights  1.79769313486232E+308
+edge from   5879  To  5779  With Weights  27023709321393
 
-edge from   5879  To  5878  With Weights  1.79769313486232E+308
+edge from   5879  To  5878  With Weights  81071127964178.9
 
 
 The  index node5880
@@ -70353,7 +70353,7 @@ edge from   5880  To  5980  With Weights  1.79769313486232E+308
 
 edge from   5880  To  5780  With Weights  1.79769313486232E+308
 
-edge from   5880  To  5879  With Weights  1.79769313486232E+308
+edge from   5880  To  5879  With Weights  27023709321393
 
 
 The  index node5881
@@ -71449,7 +71449,7 @@ edge from   5971  To  5970  With Weights  1.79769313486232E+308
 The  index node5972
 Edges
 
-edge from   5972  To  5973  With Weights  101660620780478
+edge from   5972  To  5973  With Weights  21348730363900.5
 
 edge from   5972  To  6072  With Weights  1.79769313486232E+308
 
@@ -71461,11 +71461,11 @@ edge from   5972  To  5971  With Weights  1.79769313486232E+308
 The  index node5973
 Edges
 
-edge from   5973  To  5974  With Weights  27023709321393
+edge from   5973  To  5974  With Weights  1.79769313486232E+308
 
-edge from   5973  To  6073  With Weights  101660620780478
+edge from   5973  To  6073  With Weights  21348730363900.5
 
-edge from   5973  To  5873  With Weights  101660620780478
+edge from   5973  To  5873  With Weights  21348730363900.5
 
 edge from   5973  To  5972  With Weights  1.79769313486232E+308
 
@@ -71475,11 +71475,11 @@ Edges
 
 edge from   5974  To  5975  With Weights  1.79769313486232E+308
 
-edge from   5974  To  6074  With Weights  27023709321393
+edge from   5974  To  6074  With Weights  1.79769313486232E+308
 
-edge from   5974  To  5874  With Weights  27023709321393
+edge from   5974  To  5874  With Weights  1.79769313486232E+308
 
-edge from   5974  To  5973  With Weights  101660620780478
+edge from   5974  To  5973  With Weights  21348730363900.5
 
 
 The  index node5975
@@ -71491,7 +71491,7 @@ edge from   5975  To  6075  With Weights  1.79769313486232E+308
 
 edge from   5975  To  5875  With Weights  1.79769313486232E+308
 
-edge from   5975  To  5974  With Weights  27023709321393
+edge from   5975  To  5974  With Weights  1.79769313486232E+308
 
 
 The  index node5976
@@ -71509,7 +71509,7 @@ edge from   5976  To  5975  With Weights  1.79769313486232E+308
 The  index node5977
 Edges
 
-edge from   5977  To  5978  With Weights  1.79769313486232E+308
+edge from   5977  To  5978  With Weights  81071127964178.9
 
 edge from   5977  To  6077  With Weights  1.79769313486232E+308
 
@@ -71521,11 +71521,11 @@ edge from   5977  To  5976  With Weights  1.79769313486232E+308
 The  index node5978
 Edges
 
-edge from   5978  To  5979  With Weights  1.79769313486232E+308
+edge from   5978  To  5979  With Weights  27023709321393
 
-edge from   5978  To  6078  With Weights  1.79769313486232E+308
+edge from   5978  To  6078  With Weights  81071127964178.9
 
-edge from   5978  To  5878  With Weights  1.79769313486232E+308
+edge from   5978  To  5878  With Weights  81071127964178.9
 
 edge from   5978  To  5977  With Weights  1.79769313486232E+308
 
@@ -71535,11 +71535,11 @@ Edges
 
 edge from   5979  To  5980  With Weights  1.79769313486232E+308
 
-edge from   5979  To  6079  With Weights  1.79769313486232E+308
+edge from   5979  To  6079  With Weights  27023709321393
 
-edge from   5979  To  5879  With Weights  1.79769313486232E+308
+edge from   5979  To  5879  With Weights  27023709321393
 
-edge from   5979  To  5978  With Weights  1.79769313486232E+308
+edge from   5979  To  5978  With Weights  81071127964178.9
 
 
 The  index node5980
@@ -71551,7 +71551,7 @@ edge from   5980  To  6080  With Weights  1.79769313486232E+308
 
 edge from   5980  To  5880  With Weights  1.79769313486232E+308
 
-edge from   5980  To  5979  With Weights  1.79769313486232E+308
+edge from   5980  To  5979  With Weights  27023709321393
 
 
 The  index node5981
@@ -72647,7 +72647,7 @@ edge from   6071  To  6070  With Weights  1.79769313486232E+308
 The  index node6072
 Edges
 
-edge from   6072  To  6073  With Weights  101660620780478
+edge from   6072  To  6073  With Weights  21348730363900.5
 
 edge from   6072  To  6172  With Weights  1.79769313486232E+308
 
@@ -72659,11 +72659,11 @@ edge from   6072  To  6071  With Weights  1.79769313486232E+308
 The  index node6073
 Edges
 
-edge from   6073  To  6074  With Weights  27023709321393
+edge from   6073  To  6074  With Weights  1.79769313486232E+308
 
-edge from   6073  To  6173  With Weights  101660620780478
+edge from   6073  To  6173  With Weights  21348730363900.5
 
-edge from   6073  To  5973  With Weights  101660620780478
+edge from   6073  To  5973  With Weights  21348730363900.5
 
 edge from   6073  To  6072  With Weights  1.79769313486232E+308
 
@@ -72673,11 +72673,11 @@ Edges
 
 edge from   6074  To  6075  With Weights  1.79769313486232E+308
 
-edge from   6074  To  6174  With Weights  27023709321393
+edge from   6074  To  6174  With Weights  1.79769313486232E+308
 
-edge from   6074  To  5974  With Weights  27023709321393
+edge from   6074  To  5974  With Weights  1.79769313486232E+308
 
-edge from   6074  To  6073  With Weights  101660620780478
+edge from   6074  To  6073  With Weights  21348730363900.5
 
 
 The  index node6075
@@ -72689,7 +72689,7 @@ edge from   6075  To  6175  With Weights  1.79769313486232E+308
 
 edge from   6075  To  5975  With Weights  1.79769313486232E+308
 
-edge from   6075  To  6074  With Weights  27023709321393
+edge from   6075  To  6074  With Weights  1.79769313486232E+308
 
 
 The  index node6076
@@ -72707,7 +72707,7 @@ edge from   6076  To  6075  With Weights  1.79769313486232E+308
 The  index node6077
 Edges
 
-edge from   6077  To  6078  With Weights  1.79769313486232E+308
+edge from   6077  To  6078  With Weights  81071127964178.9
 
 edge from   6077  To  6177  With Weights  1.79769313486232E+308
 
@@ -72719,11 +72719,11 @@ edge from   6077  To  6076  With Weights  1.79769313486232E+308
 The  index node6078
 Edges
 
-edge from   6078  To  6079  With Weights  1.79769313486232E+308
+edge from   6078  To  6079  With Weights  27023709321393
 
-edge from   6078  To  6178  With Weights  1.79769313486232E+308
+edge from   6078  To  6178  With Weights  81071127964178.9
 
-edge from   6078  To  5978  With Weights  1.79769313486232E+308
+edge from   6078  To  5978  With Weights  81071127964178.9
 
 edge from   6078  To  6077  With Weights  1.79769313486232E+308
 
@@ -72733,11 +72733,11 @@ Edges
 
 edge from   6079  To  6080  With Weights  1.79769313486232E+308
 
-edge from   6079  To  6179  With Weights  1.79769313486232E+308
+edge from   6079  To  6179  With Weights  27023709321393
 
-edge from   6079  To  5979  With Weights  1.79769313486232E+308
+edge from   6079  To  5979  With Weights  27023709321393
 
-edge from   6079  To  6078  With Weights  1.79769313486232E+308
+edge from   6079  To  6078  With Weights  81071127964178.9
 
 
 The  index node6080
@@ -72749,7 +72749,7 @@ edge from   6080  To  6180  With Weights  1.79769313486232E+308
 
 edge from   6080  To  5980  With Weights  1.79769313486232E+308
 
-edge from   6080  To  6079  With Weights  1.79769313486232E+308
+edge from   6080  To  6079  With Weights  27023709321393
 
 
 The  index node6081
@@ -73845,7 +73845,7 @@ edge from   6171  To  6170  With Weights  1.79769313486232E+308
 The  index node6172
 Edges
 
-edge from   6172  To  6173  With Weights  101660620780478
+edge from   6172  To  6173  With Weights  21348730363900.5
 
 edge from   6172  To  6272  With Weights  1.79769313486232E+308
 
@@ -73857,11 +73857,11 @@ edge from   6172  To  6171  With Weights  1.79769313486232E+308
 The  index node6173
 Edges
 
-edge from   6173  To  6174  With Weights  27023709321393
+edge from   6173  To  6174  With Weights  1.79769313486232E+308
 
-edge from   6173  To  6273  With Weights  101660620780478
+edge from   6173  To  6273  With Weights  21348730363900.5
 
-edge from   6173  To  6073  With Weights  101660620780478
+edge from   6173  To  6073  With Weights  21348730363900.5
 
 edge from   6173  To  6172  With Weights  1.79769313486232E+308
 
@@ -73871,11 +73871,11 @@ Edges
 
 edge from   6174  To  6175  With Weights  1.79769313486232E+308
 
-edge from   6174  To  6274  With Weights  27023709321393
+edge from   6174  To  6274  With Weights  1.79769313486232E+308
 
-edge from   6174  To  6074  With Weights  27023709321393
+edge from   6174  To  6074  With Weights  1.79769313486232E+308
 
-edge from   6174  To  6173  With Weights  101660620780478
+edge from   6174  To  6173  With Weights  21348730363900.5
 
 
 The  index node6175
@@ -73887,7 +73887,7 @@ edge from   6175  To  6275  With Weights  1.79769313486232E+308
 
 edge from   6175  To  6075  With Weights  1.79769313486232E+308
 
-edge from   6175  To  6174  With Weights  27023709321393
+edge from   6175  To  6174  With Weights  1.79769313486232E+308
 
 
 The  index node6176
@@ -73905,7 +73905,7 @@ edge from   6176  To  6175  With Weights  1.79769313486232E+308
 The  index node6177
 Edges
 
-edge from   6177  To  6178  With Weights  1.79769313486232E+308
+edge from   6177  To  6178  With Weights  81071127964178.9
 
 edge from   6177  To  6277  With Weights  1.79769313486232E+308
 
@@ -73917,11 +73917,11 @@ edge from   6177  To  6176  With Weights  1.79769313486232E+308
 The  index node6178
 Edges
 
-edge from   6178  To  6179  With Weights  1.79769313486232E+308
+edge from   6178  To  6179  With Weights  27023709321393
 
-edge from   6178  To  6278  With Weights  1.79769313486232E+308
+edge from   6178  To  6278  With Weights  81071127964178.9
 
-edge from   6178  To  6078  With Weights  1.79769313486232E+308
+edge from   6178  To  6078  With Weights  81071127964178.9
 
 edge from   6178  To  6177  With Weights  1.79769313486232E+308
 
@@ -73931,11 +73931,11 @@ Edges
 
 edge from   6179  To  6180  With Weights  1.79769313486232E+308
 
-edge from   6179  To  6279  With Weights  1.79769313486232E+308
+edge from   6179  To  6279  With Weights  27023709321393
 
-edge from   6179  To  6079  With Weights  1.79769313486232E+308
+edge from   6179  To  6079  With Weights  27023709321393
 
-edge from   6179  To  6178  With Weights  1.79769313486232E+308
+edge from   6179  To  6178  With Weights  81071127964178.9
 
 
 The  index node6180
@@ -73947,7 +73947,7 @@ edge from   6180  To  6280  With Weights  1.79769313486232E+308
 
 edge from   6180  To  6080  With Weights  1.79769313486232E+308
 
-edge from   6180  To  6179  With Weights  1.79769313486232E+308
+edge from   6180  To  6179  With Weights  27023709321393
 
 
 The  index node6181
@@ -75043,7 +75043,7 @@ edge from   6271  To  6270  With Weights  1.79769313486232E+308
 The  index node6272
 Edges
 
-edge from   6272  To  6273  With Weights  101660620780478
+edge from   6272  To  6273  With Weights  21348730363900.5
 
 edge from   6272  To  6372  With Weights  1.79769313486232E+308
 
@@ -75055,11 +75055,11 @@ edge from   6272  To  6271  With Weights  1.79769313486232E+308
 The  index node6273
 Edges
 
-edge from   6273  To  6274  With Weights  27023709321393
+edge from   6273  To  6274  With Weights  1.79769313486232E+308
 
-edge from   6273  To  6373  With Weights  101660620780478
+edge from   6273  To  6373  With Weights  21348730363900.5
 
-edge from   6273  To  6173  With Weights  101660620780478
+edge from   6273  To  6173  With Weights  21348730363900.5
 
 edge from   6273  To  6272  With Weights  1.79769313486232E+308
 
@@ -75069,11 +75069,11 @@ Edges
 
 edge from   6274  To  6275  With Weights  1.79769313486232E+308
 
-edge from   6274  To  6374  With Weights  27023709321393
+edge from   6274  To  6374  With Weights  1.79769313486232E+308
 
-edge from   6274  To  6174  With Weights  27023709321393
+edge from   6274  To  6174  With Weights  1.79769313486232E+308
 
-edge from   6274  To  6273  With Weights  101660620780478
+edge from   6274  To  6273  With Weights  21348730363900.5
 
 
 The  index node6275
@@ -75085,7 +75085,7 @@ edge from   6275  To  6375  With Weights  1.79769313486232E+308
 
 edge from   6275  To  6175  With Weights  1.79769313486232E+308
 
-edge from   6275  To  6274  With Weights  27023709321393
+edge from   6275  To  6274  With Weights  1.79769313486232E+308
 
 
 The  index node6276
@@ -75103,7 +75103,7 @@ edge from   6276  To  6275  With Weights  1.79769313486232E+308
 The  index node6277
 Edges
 
-edge from   6277  To  6278  With Weights  1.79769313486232E+308
+edge from   6277  To  6278  With Weights  81071127964178.9
 
 edge from   6277  To  6377  With Weights  1.79769313486232E+308
 
@@ -75115,11 +75115,11 @@ edge from   6277  To  6276  With Weights  1.79769313486232E+308
 The  index node6278
 Edges
 
-edge from   6278  To  6279  With Weights  1.79769313486232E+308
+edge from   6278  To  6279  With Weights  27023709321393
 
-edge from   6278  To  6378  With Weights  1.79769313486232E+308
+edge from   6278  To  6378  With Weights  81071127964178.9
 
-edge from   6278  To  6178  With Weights  1.79769313486232E+308
+edge from   6278  To  6178  With Weights  81071127964178.9
 
 edge from   6278  To  6277  With Weights  1.79769313486232E+308
 
@@ -75129,11 +75129,11 @@ Edges
 
 edge from   6279  To  6280  With Weights  1.79769313486232E+308
 
-edge from   6279  To  6379  With Weights  1.79769313486232E+308
+edge from   6279  To  6379  With Weights  27023709321393
 
-edge from   6279  To  6179  With Weights  1.79769313486232E+308
+edge from   6279  To  6179  With Weights  27023709321393
 
-edge from   6279  To  6278  With Weights  1.79769313486232E+308
+edge from   6279  To  6278  With Weights  81071127964178.9
 
 
 The  index node6280
@@ -75145,7 +75145,7 @@ edge from   6280  To  6380  With Weights  1.79769313486232E+308
 
 edge from   6280  To  6180  With Weights  1.79769313486232E+308
 
-edge from   6280  To  6279  With Weights  1.79769313486232E+308
+edge from   6280  To  6279  With Weights  27023709321393
 
 
 The  index node6281
@@ -76231,7 +76231,7 @@ Edges
 
 edge from   6371  To  6372  With Weights  1.79769313486232E+308
 
-edge from   6371  To  6471  With Weights  1.79769313486232E+308
+edge from   6371  To  6471  With Weights  0.0186741363211951
 
 edge from   6371  To  6271  With Weights  1.79769313486232E+308
 
@@ -76241,9 +76241,9 @@ edge from   6371  To  6370  With Weights  1.79769313486232E+308
 The  index node6372
 Edges
 
-edge from   6372  To  6373  With Weights  101660620780478
+edge from   6372  To  6373  With Weights  21348730363900.5
 
-edge from   6372  To  6472  With Weights  1.79769313486232E+308
+edge from   6372  To  6472  With Weights  0.0186741363211951
 
 edge from   6372  To  6272  With Weights  1.79769313486232E+308
 
@@ -76253,11 +76253,11 @@ edge from   6372  To  6371  With Weights  1.79769313486232E+308
 The  index node6373
 Edges
 
-edge from   6373  To  6374  With Weights  27023709321393
+edge from   6373  To  6374  With Weights  1.79769313486232E+308
 
-edge from   6373  To  6473  With Weights  101660620780478
+edge from   6373  To  6473  With Weights  0.0186741363211952
 
-edge from   6373  To  6273  With Weights  101660620780478
+edge from   6373  To  6273  With Weights  21348730363900.5
 
 edge from   6373  To  6372  With Weights  1.79769313486232E+308
 
@@ -76267,11 +76267,11 @@ Edges
 
 edge from   6374  To  6375  With Weights  1.79769313486232E+308
 
-edge from   6374  To  6474  With Weights  27023709321393
+edge from   6374  To  6474  With Weights  0.00496401092082403
 
-edge from   6374  To  6274  With Weights  27023709321393
+edge from   6374  To  6274  With Weights  1.79769313486232E+308
 
-edge from   6374  To  6373  With Weights  101660620780478
+edge from   6374  To  6373  With Weights  21348730363900.5
 
 
 The  index node6375
@@ -76279,11 +76279,11 @@ Edges
 
 edge from   6375  To  6376  With Weights  1.79769313486232E+308
 
-edge from   6375  To  6475  With Weights  1.79769313486232E+308
+edge from   6375  To  6475  With Weights  0.00496401092082403
 
 edge from   6375  To  6275  With Weights  1.79769313486232E+308
 
-edge from   6375  To  6374  With Weights  27023709321393
+edge from   6375  To  6374  With Weights  1.79769313486232E+308
 
 
 The  index node6376
@@ -76291,7 +76291,7 @@ Edges
 
 edge from   6376  To  6377  With Weights  1.79769313486232E+308
 
-edge from   6376  To  6476  With Weights  1.79769313486232E+308
+edge from   6376  To  6476  With Weights  0.00496401092082403
 
 edge from   6376  To  6276  With Weights  1.79769313486232E+308
 
@@ -76301,9 +76301,9 @@ edge from   6376  To  6375  With Weights  1.79769313486232E+308
 The  index node6377
 Edges
 
-edge from   6377  To  6378  With Weights  1.79769313486232E+308
+edge from   6377  To  6378  With Weights  81071127964178.9
 
-edge from   6377  To  6477  With Weights  1.79769313486232E+308
+edge from   6377  To  6477  With Weights  0.00496401092082403
 
 edge from   6377  To  6277  With Weights  1.79769313486232E+308
 
@@ -76313,11 +76313,11 @@ edge from   6377  To  6376  With Weights  1.79769313486232E+308
 The  index node6378
 Edges
 
-edge from   6378  To  6379  With Weights  1.79769313486232E+308
+edge from   6378  To  6379  With Weights  27023709321393
 
-edge from   6378  To  6478  With Weights  1.79769313486232E+308
+edge from   6378  To  6478  With Weights  0.00496401092082403
 
-edge from   6378  To  6278  With Weights  1.79769313486232E+308
+edge from   6378  To  6278  With Weights  81071127964178.9
 
 edge from   6378  To  6377  With Weights  1.79769313486232E+308
 
@@ -76327,11 +76327,11 @@ Edges
 
 edge from   6379  To  6380  With Weights  1.79769313486232E+308
 
-edge from   6379  To  6479  With Weights  1.79769313486232E+308
+edge from   6379  To  6479  With Weights  27023709321393
 
-edge from   6379  To  6279  With Weights  1.79769313486232E+308
+edge from   6379  To  6279  With Weights  27023709321393
 
-edge from   6379  To  6378  With Weights  1.79769313486232E+308
+edge from   6379  To  6378  With Weights  81071127964178.9
 
 
 The  index node6380
@@ -76343,7 +76343,7 @@ edge from   6380  To  6480  With Weights  1.79769313486232E+308
 
 edge from   6380  To  6280  With Weights  1.79769313486232E+308
 
-edge from   6380  To  6379  With Weights  1.79769313486232E+308
+edge from   6380  To  6379  With Weights  27023709321393
 
 
 The  index node6381
@@ -77415,9 +77415,9 @@ edge from   6469  To  6468  With Weights  1.79769313486232E+308
 The  index node6470
 Edges
 
-edge from   6470  To  6471  With Weights  1.79769313486232E+308
+edge from   6470  To  6471  With Weights  0.0186741363211951
 
-edge from   6470  To  6570  With Weights  1.79769313486232E+308
+edge from   6470  To  6570  With Weights  101660620780478
 
 edge from   6470  To  6370  With Weights  1.79769313486232E+308
 
@@ -77427,9 +77427,9 @@ edge from   6470  To  6469  With Weights  1.79769313486232E+308
 The  index node6471
 Edges
 
-edge from   6471  To  6472  With Weights  1.79769313486232E+308
+edge from   6471  To  6472  With Weights  0.0186741363211951
 
-edge from   6471  To  6571  With Weights  1.79769313486232E+308
+edge from   6471  To  6571  With Weights  0.0186741363211951
 
 edge from   6471  To  6371  With Weights  1.79769313486232E+308
 
@@ -77439,85 +77439,85 @@ edge from   6471  To  6470  With Weights  1.79769313486232E+308
 The  index node6472
 Edges
 
-edge from   6472  To  6473  With Weights  101660620780478
+edge from   6472  To  6473  With Weights  0.0186741363211952
 
-edge from   6472  To  6572  With Weights  1.79769313486232E+308
+edge from   6472  To  6572  With Weights  0.0186741363211951
 
 edge from   6472  To  6372  With Weights  1.79769313486232E+308
 
-edge from   6472  To  6471  With Weights  1.79769313486232E+308
+edge from   6472  To  6471  With Weights  0.0186741363211951
 
 
 The  index node6473
 Edges
 
-edge from   6473  To  6474  With Weights  27023709321393
+edge from   6473  To  6474  With Weights  0.00496401092082403
 
-edge from   6473  To  6573  With Weights  101660620780478
+edge from   6473  To  6573  With Weights  0.0186741363211951
 
-edge from   6473  To  6373  With Weights  101660620780478
+edge from   6473  To  6373  With Weights  21348730363900.5
 
-edge from   6473  To  6472  With Weights  1.79769313486232E+308
+edge from   6473  To  6472  With Weights  0.0186741363211951
 
 
 The  index node6474
 Edges
 
-edge from   6474  To  6475  With Weights  1.79769313486232E+308
+edge from   6474  To  6475  With Weights  0.00496401092082403
 
-edge from   6474  To  6574  With Weights  27023709321393
+edge from   6474  To  6574  With Weights  0.00496401092082403
 
-edge from   6474  To  6374  With Weights  27023709321393
+edge from   6474  To  6374  With Weights  1.79769313486232E+308
 
-edge from   6474  To  6473  With Weights  101660620780478
+edge from   6474  To  6473  With Weights  0.0186741363211952
 
 
 The  index node6475
 Edges
 
-edge from   6475  To  6476  With Weights  1.79769313486232E+308
+edge from   6475  To  6476  With Weights  0.00496401092082403
 
-edge from   6475  To  6575  With Weights  1.79769313486232E+308
+edge from   6475  To  6575  With Weights  0.00496401092082403
 
 edge from   6475  To  6375  With Weights  1.79769313486232E+308
 
-edge from   6475  To  6474  With Weights  27023709321393
+edge from   6475  To  6474  With Weights  0.00496401092082403
 
 
 The  index node6476
 Edges
 
-edge from   6476  To  6477  With Weights  1.79769313486232E+308
+edge from   6476  To  6477  With Weights  0.00496401092082403
 
-edge from   6476  To  6576  With Weights  1.79769313486232E+308
+edge from   6476  To  6576  With Weights  0.00496401092082403
 
 edge from   6476  To  6376  With Weights  1.79769313486232E+308
 
-edge from   6476  To  6475  With Weights  1.79769313486232E+308
+edge from   6476  To  6475  With Weights  0.00496401092082403
 
 
 The  index node6477
 Edges
 
-edge from   6477  To  6478  With Weights  1.79769313486232E+308
+edge from   6477  To  6478  With Weights  0.00496401092082403
 
-edge from   6477  To  6577  With Weights  1.79769313486232E+308
+edge from   6477  To  6577  With Weights  0.00496401092082403
 
 edge from   6477  To  6377  With Weights  1.79769313486232E+308
 
-edge from   6477  To  6476  With Weights  1.79769313486232E+308
+edge from   6477  To  6476  With Weights  0.00496401092082403
 
 
 The  index node6478
 Edges
 
-edge from   6478  To  6479  With Weights  1.79769313486232E+308
+edge from   6478  To  6479  With Weights  27023709321393
 
-edge from   6478  To  6578  With Weights  1.79769313486232E+308
+edge from   6478  To  6578  With Weights  0.00496401092082403
 
-edge from   6478  To  6378  With Weights  1.79769313486232E+308
+edge from   6478  To  6378  With Weights  81071127964178.9
 
-edge from   6478  To  6477  With Weights  1.79769313486232E+308
+edge from   6478  To  6477  With Weights  0.00496401092082403
 
 
 The  index node6479
@@ -77525,11 +77525,11 @@ Edges
 
 edge from   6479  To  6480  With Weights  1.79769313486232E+308
 
-edge from   6479  To  6579  With Weights  1.79769313486232E+308
+edge from   6479  To  6579  With Weights  0.00496401092082403
 
-edge from   6479  To  6379  With Weights  1.79769313486232E+308
+edge from   6479  To  6379  With Weights  27023709321393
 
-edge from   6479  To  6478  With Weights  1.79769313486232E+308
+edge from   6479  To  6478  With Weights  0.00496401092082403
 
 
 The  index node6480
@@ -77541,7 +77541,7 @@ edge from   6480  To  6580  With Weights  1.79769313486232E+308
 
 edge from   6480  To  6380  With Weights  1.79769313486232E+308
 
-edge from   6480  To  6479  With Weights  1.79769313486232E+308
+edge from   6480  To  6479  With Weights  27023709321393
 
 
 The  index node6481
@@ -78601,7 +78601,7 @@ edge from   6568  To  6567  With Weights  1.79769313486232E+308
 The  index node6569
 Edges
 
-edge from   6569  To  6570  With Weights  1.79769313486232E+308
+edge from   6569  To  6570  With Weights  101660620780478
 
 edge from   6569  To  6669  With Weights  1.79769313486232E+308
 
@@ -78613,7 +78613,7 @@ edge from   6569  To  6568  With Weights  1.79769313486232E+308
 The  index node6570
 Edges
 
-edge from   6570  To  6571  With Weights  1.79769313486232E+308
+edge from   6570  To  6571  With Weights  0.0186741363211951
 
 edge from   6570  To  6670  With Weights  1.79769313486232E+308
 
@@ -78625,97 +78625,97 @@ edge from   6570  To  6569  With Weights  1.79769313486232E+308
 The  index node6571
 Edges
 
-edge from   6571  To  6572  With Weights  1.79769313486232E+308
+edge from   6571  To  6572  With Weights  0.0186741363211951
 
 edge from   6571  To  6671  With Weights  1.79769313486232E+308
 
-edge from   6571  To  6471  With Weights  1.79769313486232E+308
+edge from   6571  To  6471  With Weights  0.0186741363211951
 
-edge from   6571  To  6570  With Weights  1.79769313486232E+308
+edge from   6571  To  6570  With Weights  101660620780478
 
 
 The  index node6572
 Edges
 
-edge from   6572  To  6573  With Weights  101660620780478
+edge from   6572  To  6573  With Weights  0.0186741363211951
 
 edge from   6572  To  6672  With Weights  1.79769313486232E+308
 
-edge from   6572  To  6472  With Weights  1.79769313486232E+308
+edge from   6572  To  6472  With Weights  0.0186741363211951
 
-edge from   6572  To  6571  With Weights  1.79769313486232E+308
+edge from   6572  To  6571  With Weights  0.0186741363211951
 
 
 The  index node6573
 Edges
 
-edge from   6573  To  6574  With Weights  27023709321393
+edge from   6573  To  6574  With Weights  0.00496401092082403
 
-edge from   6573  To  6673  With Weights  101660620780478
+edge from   6573  To  6673  With Weights  21348730363900.5
 
-edge from   6573  To  6473  With Weights  101660620780478
+edge from   6573  To  6473  With Weights  0.0186741363211952
 
-edge from   6573  To  6572  With Weights  1.79769313486232E+308
+edge from   6573  To  6572  With Weights  0.0186741363211951
 
 
 The  index node6574
 Edges
 
-edge from   6574  To  6575  With Weights  1.79769313486232E+308
+edge from   6574  To  6575  With Weights  0.00496401092082403
 
-edge from   6574  To  6674  With Weights  27023709321393
+edge from   6574  To  6674  With Weights  1.79769313486232E+308
 
-edge from   6574  To  6474  With Weights  27023709321393
+edge from   6574  To  6474  With Weights  0.00496401092082403
 
-edge from   6574  To  6573  With Weights  101660620780478
+edge from   6574  To  6573  With Weights  0.0186741363211951
 
 
 The  index node6575
 Edges
 
-edge from   6575  To  6576  With Weights  1.79769313486232E+308
+edge from   6575  To  6576  With Weights  0.00496401092082403
 
 edge from   6575  To  6675  With Weights  1.79769313486232E+308
 
-edge from   6575  To  6475  With Weights  1.79769313486232E+308
+edge from   6575  To  6475  With Weights  0.00496401092082403
 
-edge from   6575  To  6574  With Weights  27023709321393
+edge from   6575  To  6574  With Weights  0.00496401092082403
 
 
 The  index node6576
 Edges
 
-edge from   6576  To  6577  With Weights  1.79769313486232E+308
+edge from   6576  To  6577  With Weights  0.00496401092082403
 
 edge from   6576  To  6676  With Weights  1.79769313486232E+308
 
-edge from   6576  To  6476  With Weights  1.79769313486232E+308
+edge from   6576  To  6476  With Weights  0.00496401092082403
 
-edge from   6576  To  6575  With Weights  1.79769313486232E+308
+edge from   6576  To  6575  With Weights  0.00496401092082403
 
 
 The  index node6577
 Edges
 
-edge from   6577  To  6578  With Weights  1.79769313486232E+308
+edge from   6577  To  6578  With Weights  0.00496401092082403
 
 edge from   6577  To  6677  With Weights  1.79769313486232E+308
 
-edge from   6577  To  6477  With Weights  1.79769313486232E+308
+edge from   6577  To  6477  With Weights  0.00496401092082403
 
-edge from   6577  To  6576  With Weights  1.79769313486232E+308
+edge from   6577  To  6576  With Weights  0.00496401092082403
 
 
 The  index node6578
 Edges
 
-edge from   6578  To  6579  With Weights  1.79769313486232E+308
+edge from   6578  To  6579  With Weights  0.00496401092082403
 
 edge from   6578  To  6678  With Weights  1.79769313486232E+308
 
-edge from   6578  To  6478  With Weights  1.79769313486232E+308
+edge from   6578  To  6478  With Weights  0.00496401092082403
 
-edge from   6578  To  6577  With Weights  1.79769313486232E+308
+edge from   6578  To  6577  With Weights  0.00496401092082403
 
 
 The  index node6579
@@ -78725,9 +78725,9 @@ edge from   6579  To  6580  With Weights  1.79769313486232E+308
 
 edge from   6579  To  6679  With Weights  1.79769313486232E+308
 
-edge from   6579  To  6479  With Weights  1.79769313486232E+308
+edge from   6579  To  6479  With Weights  27023709321393
 
-edge from   6579  To  6578  With Weights  1.79769313486232E+308
+edge from   6579  To  6578  With Weights  0.00496401092082403
 
 
 The  index node6580
@@ -78739,7 +78739,7 @@ edge from   6580  To  6680  With Weights  1.79769313486232E+308
 
 edge from   6580  To  6480  With Weights  1.79769313486232E+308
 
-edge from   6580  To  6579  With Weights  1.79769313486232E+308
+edge from   6580  To  6579  With Weights  0.00496401092082403
 
 
 The  index node6581
@@ -79815,7 +79815,7 @@ edge from   6670  To  6671  With Weights  1.79769313486232E+308
 
 edge from   6670  To  6770  With Weights  1.79769313486232E+308
 
-edge from   6670  To  6570  With Weights  1.79769313486232E+308
+edge from   6670  To  6570  With Weights  101660620780478
 
 edge from   6670  To  6669  With Weights  1.79769313486232E+308
 
@@ -79827,7 +79827,7 @@ edge from   6671  To  6672  With Weights  1.79769313486232E+308
 
 edge from   6671  To  6771  With Weights  1.79769313486232E+308
 
-edge from   6671  To  6571  With Weights  1.79769313486232E+308
+edge from   6671  To  6571  With Weights  0.0186741363211951
 
 edge from   6671  To  6670  With Weights  1.79769313486232E+308
 
@@ -79835,11 +79835,11 @@ edge from   6671  To  6670  With Weights  1.79769313486232E+308
 The  index node6672
 Edges
 
-edge from   6672  To  6673  With Weights  101660620780478
+edge from   6672  To  6673  With Weights  21348730363900.5
 
 edge from   6672  To  6772  With Weights  1.79769313486232E+308
 
-edge from   6672  To  6572  With Weights  1.79769313486232E+308
+edge from   6672  To  6572  With Weights  0.0186741363211951
 
 edge from   6672  To  6671  With Weights  1.79769313486232E+308
 
@@ -79847,11 +79847,11 @@ edge from   6672  To  6671  With Weights  1.79769313486232E+308
 The  index node6673
 Edges
 
-edge from   6673  To  6674  With Weights  27023709321393
+edge from   6673  To  6674  With Weights  1.79769313486232E+308
 
-edge from   6673  To  6773  With Weights  101660620780478
+edge from   6673  To  6773  With Weights  21348730363900.5
 
-edge from   6673  To  6573  With Weights  101660620780478
+edge from   6673  To  6573  With Weights  0.0186741363211951
 
 edge from   6673  To  6672  With Weights  1.79769313486232E+308
 
@@ -79861,11 +79861,11 @@ Edges
 
 edge from   6674  To  6675  With Weights  1.79769313486232E+308
 
-edge from   6674  To  6774  With Weights  27023709321393
+edge from   6674  To  6774  With Weights  1.79769313486232E+308
 
-edge from   6674  To  6574  With Weights  27023709321393
+edge from   6674  To  6574  With Weights  0.00496401092082403
 
-edge from   6674  To  6673  With Weights  101660620780478
+edge from   6674  To  6673  With Weights  21348730363900.5
 
 
 The  index node6675
@@ -79873,11 +79873,11 @@ Edges
 
 edge from   6675  To  6676  With Weights  1.79769313486232E+308
 
-edge from   6675  To  6775  With Weights  0.00496401092082403
+edge from   6675  To  6775  With Weights  1.79769313486232E+308
 
-edge from   6675  To  6575  With Weights  1.79769313486232E+308
+edge from   6675  To  6575  With Weights  0.00496401092082403
 
-edge from   6675  To  6674  With Weights  27023709321393
+edge from   6675  To  6674  With Weights  1.79769313486232E+308
 
 
 The  index node6676
@@ -79885,9 +79885,9 @@ Edges
 
 edge from   6676  To  6677  With Weights  1.79769313486232E+308
 
-edge from   6676  To  6776  With Weights  0.00496401092082403
+edge from   6676  To  6776  With Weights  1.79769313486232E+308
 
-edge from   6676  To  6576  With Weights  1.79769313486232E+308
+edge from   6676  To  6576  With Weights  0.00496401092082403
 
 edge from   6676  To  6675  With Weights  1.79769313486232E+308
 
@@ -79897,9 +79897,9 @@ Edges
 
 edge from   6677  To  6678  With Weights  1.79769313486232E+308
 
-edge from   6677  To  6777  With Weights  0.00496401092082403
+edge from   6677  To  6777  With Weights  1.79769313486232E+308
 
-edge from   6677  To  6577  With Weights  1.79769313486232E+308
+edge from   6677  To  6577  With Weights  0.00496401092082403
 
 edge from   6677  To  6676  With Weights  1.79769313486232E+308
 
@@ -79909,9 +79909,9 @@ Edges
 
 edge from   6678  To  6679  With Weights  1.79769313486232E+308
 
-edge from   6678  To  6778  With Weights  0.00496401092082403
+edge from   6678  To  6778  With Weights  1.79769313486232E+308
 
-edge from   6678  To  6578  With Weights  1.79769313486232E+308
+edge from   6678  To  6578  With Weights  0.00496401092082403
 
 edge from   6678  To  6677  With Weights  1.79769313486232E+308
 
@@ -79921,9 +79921,9 @@ Edges
 
 edge from   6679  To  6680  With Weights  1.79769313486232E+308
 
-edge from   6679  To  6779  With Weights  0.00496401092082403
+edge from   6679  To  6779  With Weights  1.79769313486232E+308
 
-edge from   6679  To  6579  With Weights  1.79769313486232E+308
+edge from   6679  To  6579  With Weights  0.00496401092082403
 
 edge from   6679  To  6678  With Weights  1.79769313486232E+308
 
@@ -79933,7 +79933,7 @@ Edges
 
 edge from   6680  To  6681  With Weights  1.79769313486232E+308
 
-edge from   6680  To  6780  With Weights  0.00496401092082403
+edge from   6680  To  6780  With Weights  1.79769313486232E+308
 
 edge from   6680  To  6580  With Weights  1.79769313486232E+308
 
@@ -79945,7 +79945,7 @@ Edges
 
 edge from   6681  To  6682  With Weights  1.79769313486232E+308
 
-edge from   6681  To  6781  With Weights  0.00496401092082403
+edge from   6681  To  6781  With Weights  1.79769313486232E+308
 
 edge from   6681  To  6581  With Weights  1.79769313486232E+308
 
@@ -79957,7 +79957,7 @@ Edges
 
 edge from   6682  To  6683  With Weights  1.79769313486232E+308
 
-edge from   6682  To  6782  With Weights  0.00496401092082403
+edge from   6682  To  6782  With Weights  1.79769313486232E+308
 
 edge from   6682  To  6582  With Weights  1.79769313486232E+308
 
@@ -79969,7 +79969,7 @@ Edges
 
 edge from   6683  To  6684  With Weights  1.79769313486232E+308
 
-edge from   6683  To  6783  With Weights  0.00496401092082403
+edge from   6683  To  6783  With Weights  1.79769313486232E+308
 
 edge from   6683  To  6583  With Weights  1.79769313486232E+308
 
@@ -79981,7 +79981,7 @@ Edges
 
 edge from   6684  To  6685  With Weights  1.79769313486232E+308
 
-edge from   6684  To  6784  With Weights  0.00496401092082403
+edge from   6684  To  6784  With Weights  1.79769313486232E+308
 
 edge from   6684  To  6584  With Weights  1.79769313486232E+308
 
@@ -79993,7 +79993,7 @@ Edges
 
 edge from   6685  To  6686  With Weights  1.79769313486232E+308
 
-edge from   6685  To  6785  With Weights  0.00496401092082403
+edge from   6685  To  6785  With Weights  1.79769313486232E+308
 
 edge from   6685  To  6585  With Weights  1.79769313486232E+308
 
@@ -81033,7 +81033,7 @@ edge from   6771  To  6770  With Weights  1.79769313486232E+308
 The  index node6772
 Edges
 
-edge from   6772  To  6773  With Weights  101660620780478
+edge from   6772  To  6773  With Weights  21348730363900.5
 
 edge from   6772  To  6872  With Weights  1.79769313486232E+308
 
@@ -81045,11 +81045,11 @@ edge from   6772  To  6771  With Weights  1.79769313486232E+308
 The  index node6773
 Edges
 
-edge from   6773  To  6774  With Weights  27023709321393
+edge from   6773  To  6774  With Weights  1.79769313486232E+308
 
-edge from   6773  To  6873  With Weights  101660620780478
+edge from   6773  To  6873  With Weights  21348730363900.5
 
-edge from   6773  To  6673  With Weights  101660620780478
+edge from   6773  To  6673  With Weights  21348730363900.5
 
 edge from   6773  To  6772  With Weights  1.79769313486232E+308
 
@@ -81057,133 +81057,133 @@ edge from   6773  To  6772  With Weights  1.79769313486232E+308
 The  index node6774
 Edges
 
-edge from   6774  To  6775  With Weights  0.00496401092082403
+edge from   6774  To  6775  With Weights  1.79769313486232E+308
 
-edge from   6774  To  6874  With Weights  0.00496401092082403
+edge from   6774  To  6874  With Weights  1.79769313486232E+308
 
-edge from   6774  To  6674  With Weights  27023709321393
+edge from   6774  To  6674  With Weights  1.79769313486232E+308
 
-edge from   6774  To  6773  With Weights  101660620780478
+edge from   6774  To  6773  With Weights  21348730363900.5
 
 
 The  index node6775
 Edges
 
-edge from   6775  To  6776  With Weights  0.00496401092082403
+edge from   6775  To  6776  With Weights  1.79769313486232E+308
 
-edge from   6775  To  6875  With Weights  0.00496401092082403
+edge from   6775  To  6875  With Weights  1.79769313486232E+308
 
 edge from   6775  To  6675  With Weights  1.79769313486232E+308
 
-edge from   6775  To  6774  With Weights  27023709321393
+edge from   6775  To  6774  With Weights  1.79769313486232E+308
 
 
 The  index node6776
 Edges
 
-edge from   6776  To  6777  With Weights  0.00496401092082403
+edge from   6776  To  6777  With Weights  1.79769313486232E+308
 
-edge from   6776  To  6876  With Weights  0.00496401092082403
+edge from   6776  To  6876  With Weights  1.79769313486232E+308
 
 edge from   6776  To  6676  With Weights  1.79769313486232E+308
 
-edge from   6776  To  6775  With Weights  0.00496401092082403
+edge from   6776  To  6775  With Weights  1.79769313486232E+308
 
 
 The  index node6777
 Edges
 
-edge from   6777  To  6778  With Weights  0.00496401092082403
+edge from   6777  To  6778  With Weights  1.79769313486232E+308
 
-edge from   6777  To  6877  With Weights  0.00496401092082403
+edge from   6777  To  6877  With Weights  1.79769313486232E+308
 
 edge from   6777  To  6677  With Weights  1.79769313486232E+308
 
-edge from   6777  To  6776  With Weights  0.00496401092082403
+edge from   6777  To  6776  With Weights  1.79769313486232E+308
 
 
 The  index node6778
 Edges
 
-edge from   6778  To  6779  With Weights  0.00496401092082403
+edge from   6778  To  6779  With Weights  1.79769313486232E+308
 
-edge from   6778  To  6878  With Weights  0.00496401092082403
+edge from   6778  To  6878  With Weights  1.79769313486232E+308
 
 edge from   6778  To  6678  With Weights  1.79769313486232E+308
 
-edge from   6778  To  6777  With Weights  0.00496401092082403
+edge from   6778  To  6777  With Weights  1.79769313486232E+308
 
 
 The  index node6779
 Edges
 
-edge from   6779  To  6780  With Weights  0.00496401092082403
+edge from   6779  To  6780  With Weights  1.79769313486232E+308
 
-edge from   6779  To  6879  With Weights  0.00496401092082403
+edge from   6779  To  6879  With Weights  1.79769313486232E+308
 
 edge from   6779  To  6679  With Weights  1.79769313486232E+308
 
-edge from   6779  To  6778  With Weights  0.00496401092082403
+edge from   6779  To  6778  With Weights  1.79769313486232E+308
 
 
 The  index node6780
 Edges
 
-edge from   6780  To  6781  With Weights  0.00496401092082403
+edge from   6780  To  6781  With Weights  1.79769313486232E+308
 
-edge from   6780  To  6880  With Weights  0.00496401092082403
+edge from   6780  To  6880  With Weights  1.79769313486232E+308
 
 edge from   6780  To  6680  With Weights  1.79769313486232E+308
 
-edge from   6780  To  6779  With Weights  0.00496401092082403
+edge from   6780  To  6779  With Weights  1.79769313486232E+308
 
 
 The  index node6781
 Edges
 
-edge from   6781  To  6782  With Weights  0.00496401092082403
+edge from   6781  To  6782  With Weights  1.79769313486232E+308
 
-edge from   6781  To  6881  With Weights  0.00496401092082403
+edge from   6781  To  6881  With Weights  1.79769313486232E+308
 
 edge from   6781  To  6681  With Weights  1.79769313486232E+308
 
-edge from   6781  To  6780  With Weights  0.00496401092082403
+edge from   6781  To  6780  With Weights  1.79769313486232E+308
 
 
 The  index node6782
 Edges
 
-edge from   6782  To  6783  With Weights  0.00496401092082403
+edge from   6782  To  6783  With Weights  1.79769313486232E+308
 
-edge from   6782  To  6882  With Weights  0.00496401092082403
+edge from   6782  To  6882  With Weights  1.79769313486232E+308
 
 edge from   6782  To  6682  With Weights  1.79769313486232E+308
 
-edge from   6782  To  6781  With Weights  0.00496401092082403
+edge from   6782  To  6781  With Weights  1.79769313486232E+308
 
 
 The  index node6783
 Edges
 
-edge from   6783  To  6784  With Weights  0.00496401092082403
+edge from   6783  To  6784  With Weights  1.79769313486232E+308
 
-edge from   6783  To  6883  With Weights  0.00496401092082403
+edge from   6783  To  6883  With Weights  1.79769313486232E+308
 
 edge from   6783  To  6683  With Weights  1.79769313486232E+308
 
-edge from   6783  To  6782  With Weights  0.00496401092082403
+edge from   6783  To  6782  With Weights  1.79769313486232E+308
 
 
 The  index node6784
 Edges
 
-edge from   6784  To  6785  With Weights  0.00496401092082403
+edge from   6784  To  6785  With Weights  1.79769313486232E+308
 
-edge from   6784  To  6884  With Weights  0.00496401092082403
+edge from   6784  To  6884  With Weights  1.79769313486232E+308
 
 edge from   6784  To  6684  With Weights  1.79769313486232E+308
 
-edge from   6784  To  6783  With Weights  0.00496401092082403
+edge from   6784  To  6783  With Weights  1.79769313486232E+308
 
 
 The  index node6785
@@ -81191,11 +81191,11 @@ Edges
 
 edge from   6785  To  6786  With Weights  1.79769313486232E+308
 
-edge from   6785  To  6885  With Weights  0.00496401092082403
+edge from   6785  To  6885  With Weights  1.79769313486232E+308
 
 edge from   6785  To  6685  With Weights  1.79769313486232E+308
 
-edge from   6785  To  6784  With Weights  0.00496401092082403
+edge from   6785  To  6784  With Weights  1.79769313486232E+308
 
 
 The  index node6786
@@ -81207,7 +81207,7 @@ edge from   6786  To  6886  With Weights  1.79769313486232E+308
 
 edge from   6786  To  6686  With Weights  1.79769313486232E+308
 
-edge from   6786  To  6785  With Weights  0.00496401092082403
+edge from   6786  To  6785  With Weights  1.79769313486232E+308
 
 
 The  index node6787
@@ -82231,7 +82231,7 @@ edge from   6871  To  6870  With Weights  1.79769313486232E+308
 The  index node6872
 Edges
 
-edge from   6872  To  6873  With Weights  101660620780478
+edge from   6872  To  6873  With Weights  21348730363900.5
 
 edge from   6872  To  6972  With Weights  1.79769313486232E+308
 
@@ -82243,11 +82243,11 @@ edge from   6872  To  6871  With Weights  1.79769313486232E+308
 The  index node6873
 Edges
 
-edge from   6873  To  6874  With Weights  0.00496401092082403
+edge from   6873  To  6874  With Weights  1.79769313486232E+308
 
 edge from   6873  To  6973  With Weights  21348730363900.5
 
-edge from   6873  To  6773  With Weights  101660620780478
+edge from   6873  To  6773  With Weights  21348730363900.5
 
 edge from   6873  To  6872  With Weights  1.79769313486232E+308
 
@@ -82255,133 +82255,133 @@ edge from   6873  To  6872  With Weights  1.79769313486232E+308
 The  index node6874
 Edges
 
-edge from   6874  To  6875  With Weights  0.00496401092082403
+edge from   6874  To  6875  With Weights  1.79769313486232E+308
 
 edge from   6874  To  6974  With Weights  1.79769313486232E+308
 
-edge from   6874  To  6774  With Weights  27023709321393
+edge from   6874  To  6774  With Weights  1.79769313486232E+308
 
-edge from   6874  To  6873  With Weights  101660620780478
+edge from   6874  To  6873  With Weights  21348730363900.5
 
 
 The  index node6875
 Edges
 
-edge from   6875  To  6876  With Weights  0.00496401092082403
+edge from   6875  To  6876  With Weights  1.79769313486232E+308
 
 edge from   6875  To  6975  With Weights  1.79769313486232E+308
 
-edge from   6875  To  6775  With Weights  0.00496401092082403
+edge from   6875  To  6775  With Weights  1.79769313486232E+308
 
-edge from   6875  To  6874  With Weights  0.00496401092082403
+edge from   6875  To  6874  With Weights  1.79769313486232E+308
 
 
 The  index node6876
 Edges
 
-edge from   6876  To  6877  With Weights  0.00496401092082403
+edge from   6876  To  6877  With Weights  1.79769313486232E+308
 
 edge from   6876  To  6976  With Weights  1.79769313486232E+308
 
-edge from   6876  To  6776  With Weights  0.00496401092082403
+edge from   6876  To  6776  With Weights  1.79769313486232E+308
 
-edge from   6876  To  6875  With Weights  0.00496401092082403
+edge from   6876  To  6875  With Weights  1.79769313486232E+308
 
 
 The  index node6877
 Edges
 
-edge from   6877  To  6878  With Weights  0.00496401092082403
+edge from   6877  To  6878  With Weights  1.79769313486232E+308
 
 edge from   6877  To  6977  With Weights  1.79769313486232E+308
 
-edge from   6877  To  6777  With Weights  0.00496401092082403
+edge from   6877  To  6777  With Weights  1.79769313486232E+308
 
-edge from   6877  To  6876  With Weights  0.00496401092082403
+edge from   6877  To  6876  With Weights  1.79769313486232E+308
 
 
 The  index node6878
 Edges
 
-edge from   6878  To  6879  With Weights  0.00496401092082403
+edge from   6878  To  6879  With Weights  1.79769313486232E+308
 
 edge from   6878  To  6978  With Weights  1.79769313486232E+308
 
-edge from   6878  To  6778  With Weights  0.00496401092082403
+edge from   6878  To  6778  With Weights  1.79769313486232E+308
 
-edge from   6878  To  6877  With Weights  0.00496401092082403
+edge from   6878  To  6877  With Weights  1.79769313486232E+308
 
 
 The  index node6879
 Edges
 
-edge from   6879  To  6880  With Weights  0.00496401092082403
+edge from   6879  To  6880  With Weights  1.79769313486232E+308
 
 edge from   6879  To  6979  With Weights  1.79769313486232E+308
 
-edge from   6879  To  6779  With Weights  0.00496401092082403
+edge from   6879  To  6779  With Weights  1.79769313486232E+308
 
-edge from   6879  To  6878  With Weights  0.00496401092082403
+edge from   6879  To  6878  With Weights  1.79769313486232E+308
 
 
 The  index node6880
 Edges
 
-edge from   6880  To  6881  With Weights  0.00496401092082403
+edge from   6880  To  6881  With Weights  1.79769313486232E+308
 
 edge from   6880  To  6980  With Weights  1.79769313486232E+308
 
-edge from   6880  To  6780  With Weights  0.00496401092082403
+edge from   6880  To  6780  With Weights  1.79769313486232E+308
 
-edge from   6880  To  6879  With Weights  0.00496401092082403
+edge from   6880  To  6879  With Weights  1.79769313486232E+308
 
 
 The  index node6881
 Edges
 
-edge from   6881  To  6882  With Weights  0.00496401092082403
+edge from   6881  To  6882  With Weights  1.79769313486232E+308
 
 edge from   6881  To  6981  With Weights  1.79769313486232E+308
 
-edge from   6881  To  6781  With Weights  0.00496401092082403
+edge from   6881  To  6781  With Weights  1.79769313486232E+308
 
-edge from   6881  To  6880  With Weights  0.00496401092082403
+edge from   6881  To  6880  With Weights  1.79769313486232E+308
 
 
 The  index node6882
 Edges
 
-edge from   6882  To  6883  With Weights  0.00496401092082403
+edge from   6882  To  6883  With Weights  1.79769313486232E+308
 
 edge from   6882  To  6982  With Weights  1.79769313486232E+308
 
-edge from   6882  To  6782  With Weights  0.00496401092082403
+edge from   6882  To  6782  With Weights  1.79769313486232E+308
 
-edge from   6882  To  6881  With Weights  0.00496401092082403
+edge from   6882  To  6881  With Weights  1.79769313486232E+308
 
 
 The  index node6883
 Edges
 
-edge from   6883  To  6884  With Weights  0.00496401092082403
+edge from   6883  To  6884  With Weights  1.79769313486232E+308
 
 edge from   6883  To  6983  With Weights  1.79769313486232E+308
 
-edge from   6883  To  6783  With Weights  0.00496401092082403
+edge from   6883  To  6783  With Weights  1.79769313486232E+308
 
-edge from   6883  To  6882  With Weights  0.00496401092082403
+edge from   6883  To  6882  With Weights  1.79769313486232E+308
 
 
 The  index node6884
 Edges
 
-edge from   6884  To  6885  With Weights  0.00496401092082403
+edge from   6884  To  6885  With Weights  1.79769313486232E+308
 
 edge from   6884  To  6984  With Weights  1.79769313486232E+308
 
-edge from   6884  To  6784  With Weights  0.00496401092082403
+edge from   6884  To  6784  With Weights  1.79769313486232E+308
 
-edge from   6884  To  6883  With Weights  0.00496401092082403
+edge from   6884  To  6883  With Weights  1.79769313486232E+308
 
 
 The  index node6885
@@ -82391,9 +82391,9 @@ edge from   6885  To  6886  With Weights  1.79769313486232E+308
 
 edge from   6885  To  6985  With Weights  1.79769313486232E+308
 
-edge from   6885  To  6785  With Weights  0.00496401092082403
+edge from   6885  To  6785  With Weights  1.79769313486232E+308
 
-edge from   6885  To  6884  With Weights  0.00496401092082403
+edge from   6885  To  6884  With Weights  1.79769313486232E+308
 
 
 The  index node6886
@@ -82405,7 +82405,7 @@ edge from   6886  To  6986  With Weights  1.79769313486232E+308
 
 edge from   6886  To  6786  With Weights  1.79769313486232E+308
 
-edge from   6886  To  6885  With Weights  0.00496401092082403
+edge from   6886  To  6885  With Weights  1.79769313486232E+308
 
 
 The  index node6887
@@ -83445,7 +83445,7 @@ edge from   6973  To  6974  With Weights  1.79769313486232E+308
 
 edge from   6973  To  7073  With Weights  21348730363900.5
 
-edge from   6973  To  6873  With Weights  101660620780478
+edge from   6973  To  6873  With Weights  21348730363900.5
 
 edge from   6973  To  6972  With Weights  1.79769313486232E+308
 
@@ -83457,7 +83457,7 @@ edge from   6974  To  6975  With Weights  1.79769313486232E+308
 
 edge from   6974  To  7074  With Weights  1.79769313486232E+308
 
-edge from   6974  To  6874  With Weights  0.00496401092082403
+edge from   6974  To  6874  With Weights  1.79769313486232E+308
 
 edge from   6974  To  6973  With Weights  21348730363900.5
 
@@ -83469,7 +83469,7 @@ edge from   6975  To  6976  With Weights  1.79769313486232E+308
 
 edge from   6975  To  7075  With Weights  1.79769313486232E+308
 
-edge from   6975  To  6875  With Weights  0.00496401092082403
+edge from   6975  To  6875  With Weights  1.79769313486232E+308
 
 edge from   6975  To  6974  With Weights  1.79769313486232E+308
 
@@ -83481,7 +83481,7 @@ edge from   6976  To  6977  With Weights  1.79769313486232E+308
 
 edge from   6976  To  7076  With Weights  1.79769313486232E+308
 
-edge from   6976  To  6876  With Weights  0.00496401092082403
+edge from   6976  To  6876  With Weights  1.79769313486232E+308
 
 edge from   6976  To  6975  With Weights  1.79769313486232E+308
 
@@ -83493,7 +83493,7 @@ edge from   6977  To  6978  With Weights  1.79769313486232E+308
 
 edge from   6977  To  7077  With Weights  1.79769313486232E+308
 
-edge from   6977  To  6877  With Weights  0.00496401092082403
+edge from   6977  To  6877  With Weights  1.79769313486232E+308
 
 edge from   6977  To  6976  With Weights  1.79769313486232E+308
 
@@ -83505,7 +83505,7 @@ edge from   6978  To  6979  With Weights  1.79769313486232E+308
 
 edge from   6978  To  7078  With Weights  1.79769313486232E+308
 
-edge from   6978  To  6878  With Weights  0.00496401092082403
+edge from   6978  To  6878  With Weights  1.79769313486232E+308
 
 edge from   6978  To  6977  With Weights  1.79769313486232E+308
 
@@ -83517,7 +83517,7 @@ edge from   6979  To  6980  With Weights  1.79769313486232E+308
 
 edge from   6979  To  7079  With Weights  1.79769313486232E+308
 
-edge from   6979  To  6879  With Weights  0.00496401092082403
+edge from   6979  To  6879  With Weights  1.79769313486232E+308
 
 edge from   6979  To  6978  With Weights  1.79769313486232E+308
 
@@ -83529,7 +83529,7 @@ edge from   6980  To  6981  With Weights  1.79769313486232E+308
 
 edge from   6980  To  7080  With Weights  1.79769313486232E+308
 
-edge from   6980  To  6880  With Weights  0.00496401092082403
+edge from   6980  To  6880  With Weights  1.79769313486232E+308
 
 edge from   6980  To  6979  With Weights  1.79769313486232E+308
 
@@ -83541,7 +83541,7 @@ edge from   6981  To  6982  With Weights  1.79769313486232E+308
 
 edge from   6981  To  7081  With Weights  1.79769313486232E+308
 
-edge from   6981  To  6881  With Weights  0.00496401092082403
+edge from   6981  To  6881  With Weights  1.79769313486232E+308
 
 edge from   6981  To  6980  With Weights  1.79769313486232E+308
 
@@ -83553,7 +83553,7 @@ edge from   6982  To  6983  With Weights  1.79769313486232E+308
 
 edge from   6982  To  7082  With Weights  1.79769313486232E+308
 
-edge from   6982  To  6882  With Weights  0.00496401092082403
+edge from   6982  To  6882  With Weights  1.79769313486232E+308
 
 edge from   6982  To  6981  With Weights  1.79769313486232E+308
 
@@ -83565,7 +83565,7 @@ edge from   6983  To  6984  With Weights  1.79769313486232E+308
 
 edge from   6983  To  7083  With Weights  1.79769313486232E+308
 
-edge from   6983  To  6883  With Weights  0.00496401092082403
+edge from   6983  To  6883  With Weights  1.79769313486232E+308
 
 edge from   6983  To  6982  With Weights  1.79769313486232E+308
 
@@ -83577,7 +83577,7 @@ edge from   6984  To  6985  With Weights  1.79769313486232E+308
 
 edge from   6984  To  7084  With Weights  1.79769313486232E+308
 
-edge from   6984  To  6884  With Weights  0.00496401092082403
+edge from   6984  To  6884  With Weights  1.79769313486232E+308
 
 edge from   6984  To  6983  With Weights  1.79769313486232E+308
 
@@ -83589,7 +83589,7 @@ edge from   6985  To  6986  With Weights  1.79769313486232E+308
 
 edge from   6985  To  7085  With Weights  1.79769313486232E+308
 
-edge from   6985  To  6885  With Weights  0.00496401092082403
+edge from   6985  To  6885  With Weights  1.79769313486232E+308
 
 edge from   6985  To  6984  With Weights  1.79769313486232E+308
 
