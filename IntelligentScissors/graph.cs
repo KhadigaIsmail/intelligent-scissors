@@ -48,26 +48,35 @@ namespace IntelligentScissors
             direction[,] weights = new direction[1000, 1000];
             int height = ImageOperations.GetHeight(ImageMatrix);
             int width = ImageOperations.GetWidth(ImageMatrix);
-            for (int y = 0; y < height - 1; y++)
+            for (int y = 0; y < height ; y++)
             {
-                for (int x = 0; x < width - 1; x++)
+                for (int x = 0; x < width ; x++)
                 {
 
                     Vector2D ee;
                     ee = ImageOperations.CalculatePixelEnergies(x, y, ImageMatrix);
                     direction dr = new direction();
-                    if (ee.X == 0) dr.right = double.MaxValue;
-                    else
-                        dr.right = 1 / ee.X;
-                    if (ee.Y == 0) dr.down = double.MaxValue;
-                    else
-                        dr.down = 1 / ee.Y;
+                    if(y < height-1)
+                    {
+
+                        
+                        if (ee.Y == 0) dr.down = 1E+16;
+                        else
+                            dr.down = 1 / ee.Y;
+                    }
+                    if (x < width - 1)
+                    {
+                        if (ee.X == 0)
+                        { dr.right = 1E+16; }
+                        else
+                            dr.right = 1 / ee.X;
+                    }
                     if (y > 0)
                     {
                         ee = ImageOperations.CalculatePixelEnergies(x, y-1, ImageMatrix);
 
                        
-                        if (ee.Y == 0) dr.up = double.MaxValue;
+                        if (ee.Y == 0) dr.up = 1E+16;
                         else
                             dr.up = 1 / ee.Y;
                     }
@@ -75,12 +84,13 @@ namespace IntelligentScissors
                     {
                         ee = ImageOperations.CalculatePixelEnergies(x-1, y , ImageMatrix);
 
-                        if (ee.X == 0) dr.left = double.MaxValue;
+                        if (ee.X == 0) dr.left = 1E+16; 
                         else
                             dr.left = 1 / ee.X;
                        
                     }
                     weights[y, x] = new direction(dr);
+                    
                     //MessageBox.Show(weights[y, x].right.ToString());
 
 
@@ -113,7 +123,7 @@ namespace IntelligentScissors
             for (int i = 0;i < 1000; ++i)
             {
                 for (int j = 0; j < 1000; ++j)
-                dis[i, j] = 10000000000;
+                dis[i, j] = 1E+17;
             }
             elPriorityQueuebta3khadiga pq = new elPriorityQueuebta3khadiga(x,y,0.0);
             dis[y,x] = 0;
@@ -131,6 +141,7 @@ namespace IntelligentScissors
                     dis[yy + 1, xx] = d + graph[yy , xx].down;
                     fromx[yy + 1, xx] = xx;
                     fromy[yy+1, xx] = yy;
+                    //MessageBox.Show(fromx[yy+1, xx].ToString() + " down " + fromy[yy+1, xx].ToString());
                     if (xx == destinationX && yy+1 == destinationY)
                     {
                         pq = null;
@@ -145,6 +156,7 @@ namespace IntelligentScissors
                     pq.push(xx + 1, yy, dis[yy , xx+1]);
                     fromx[yy , xx+1] = xx;
                     fromy[yy, xx+1] = yy;
+                    //MessageBox.Show(fromx[yy, xx+1].ToString() + " right " + fromy[yy, xx+1].ToString());
                     if (xx+1 == destinationX && yy  == destinationY)
                     {
                         pq = null;
@@ -157,6 +169,7 @@ namespace IntelligentScissors
                     pq.push(xx, yy - 1, dis[yy - 1, xx]);
                     fromx[yy-1, xx] = xx;
                     fromy[yy-1, xx] = yy;
+                    //MessageBox.Show(fromx[yy-1, xx].ToString() + " up " + fromy[yy-1, xx].ToString());
                     if (xx == destinationX && yy-1 == destinationY)
                     {
                         pq = null;
@@ -169,6 +182,7 @@ namespace IntelligentScissors
                     pq.push(xx-1, yy, dis[yy, xx-1]);
                     fromx[yy, xx-1] = xx;
                     fromy[yy, xx-1] = yy;
+                    //MessageBox.Show(fromx[yy, xx-1].ToString() + " left " + fromy[yy, xx-1].ToString());
                     if (xx-1 == destinationX && yy == destinationY)
                     {
                         pq = null;
@@ -195,11 +209,14 @@ namespace IntelligentScissors
         public static void printpath(int x, int y, int srcx , int srcy, int[,] fromx, int[,] fromy,double [,] dis,RGBPixel [,] imageMatrix,List <Point> lop )
         {
             int xx = x, yy = y;
-            while (xx != srcx || yy != srcy)
+            while ((xx != srcx || yy != srcy) && (xx!=0 && yy !=0))
             {
+                 //MessageBox.Show(fromx[yy,xx].ToString()+" "+ fromy[yy, xx].ToString());
                 lop.Add( new Point(xx, yy));
                 xx = fromx[yy, xx];
                 yy = fromy[yy, xx];
+                imageMatrix[yy, xx].blue = 0; imageMatrix[yy, xx].red = 255; imageMatrix[yy, xx].green = 0;
+
             }
             
         }

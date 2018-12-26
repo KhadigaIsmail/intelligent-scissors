@@ -50,28 +50,18 @@ namespace IntelligentScissors
             }
             int[,] fromx = new int[1000, 1000];
             int[,] fromy = new int[1000, 1000];
-            /*double[,] dist = graph_.Dijkstra(g, 0, 0,3,2,fromx,fromy);
-                 {
-               MessageBox.Show("L");
-                for (int i = 0; i < 100; ++i)
-                {
-                    for (int j = 0; j < 100; ++j)
-                    {
-                        writer.WriteLine("x y "+i+" "+j+" "+fromx[i, j]+" "+ fromy[i, j]);
-                        
-                     
-                    }
-                }
-               
-            }
-             */
-            // graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
+            
         }
 
         private void btnGaussSmooth_Click(object sender, EventArgs e)
         {
-            
-           // saving_constructed_graph(energy, h, w);
+            //int[,] fromx = new int[1000, 1000]; int[,] fromy = new int[1000, 1000];
+            ////double[,] dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, e.X, e.Y, fromx, fromy, h, w);
+            ////graph_.printpath(e.X, e.Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy, dis, ImageMatrix, lololyy);
+            //double[,] dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 2].X, Pt1[Pt1.Count - 2].Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy, h, w);
+            //graph_.printpath(Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, Pt1[Pt1.Count - 2].X, Pt1[Pt1.Count - 2].Y, fromx, fromy, dis, ImageMatrix, lololyy);
+
+            saving_constructed_graph(energy, h, w);
             MouseEventArgs me = (MouseEventArgs)e;
             ImageOperations.DisplayImage(ImageMatrix, pictureBox2);
         }
@@ -117,8 +107,11 @@ namespace IntelligentScissors
         {
             // Save the new point.
             NewPt2 = new Point(e.X, e.Y);
-           // MessageBox.Show("L");
-            
+            MessageBox.Show("L");
+            //int[,] fromx = new int[1000, 1000]; int[,] fromy = new int[1000, 1000];
+            //double[,] dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, e.X, e.Y, fromx, fromy, h, w);
+            //graph_.printpath(e.X, e.Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy, dis, ImageMatrix, lololyy);
+
             // Redraw.
             pictureBox1.Invalidate();
         }
@@ -190,9 +183,9 @@ namespace IntelligentScissors
                 lololyy.Clear();
                 int[,] fromx = new int[1000, 1000]; int[,] fromy = new int[1000, 1000];
                 double[,] dis = graph_.Dijkstra(energy, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, e.X, e.Y, fromx, fromy, h, w);
-                graph_.printpath(e.X, e.Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy, dis, ImageMatrix,lololyy);
-                //arrayofpoints = new Point[lololyy.Count];
-                
+                graph_.printpath(e.X, e.Y, Pt1[Pt1.Count - 1].X, Pt1[Pt1.Count - 1].Y, fromx, fromy, dis, ImageMatrix, lololyy);
+                ////arrayofpoints = new Point[lololyy.Count];
+
                 //ImageOperations.DisplayImage(ImageMatrix, pictureBox1);
                 //MessageBox.Show("P");
             }
@@ -225,12 +218,12 @@ namespace IntelligentScissors
             return s + Environment.NewLine + a + Environment.NewLine + b + Environment.NewLine + c + Environment.NewLine + dd + Environment.NewLine;
 
         }
-        public static void saving_constructed_graph(double[,] graphh, int N, int M)
+        public static void saving_constructed_graph(direction[,] graphh, int N, int M)
         {
             int counter = 0, box;
             string s = "";
            // MessageBox.Show("P");
-            using (StreamWriter writer = new StreamWriter("output1.txt"))
+            using (StreamWriter writer = new StreamWriter("output5.txt"))
             {//double[,] energy = new double[1000, 1000];
                 writer.WriteLine("The constructed graph");
                 writer.WriteLine("\n");
@@ -247,24 +240,24 @@ namespace IntelligentScissors
                         if (i != N - 1) //down
                         {
                             down = counter + M;
-                            d = graphh[i + 1, j];
+                            d = graphh[i , j].down;
                         }
                         if (j != M - 1)//right
                         {
                             //MessageBox.Show(i.ToString() + " " + j.ToString());
                             right = counter + 1;
-                            r = graphh[i, j + 1];
+                            r = graphh[i, j ].right;
                         }
 
                         if (j != 0)//left
                         {
                             left = counter - 1;
-                            l = graphh[i, j - 1];
+                            l = graphh[i, j ].left;
                         }
                         if (i != 0)//up
                         {
                             up = counter - M;
-                            u = graphh[i - 1, j];
+                            u = graphh[i, j].up;
                         }
                         // MessageBox.Show(counter.ToString() + " " + down.ToString());
                         s = saving_constructed_graph_help(counter, right, left, up, down, r, l, u, d);
