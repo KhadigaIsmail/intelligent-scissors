@@ -57,7 +57,7 @@ namespace IntelligentScissors
             this.pictureBox1.Location = new System.Drawing.Point(4, 5);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(427, 360);
+            this.pictureBox1.Size = new System.Drawing.Size(654, 479);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -233,7 +233,7 @@ namespace IntelligentScissors
             this.panel1.Location = new System.Drawing.Point(18, 18);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(655, 569);
+            this.panel1.Size = new System.Drawing.Size(751, 556);
             this.panel1.TabIndex = 15;
             // 
             // panel2
@@ -241,15 +241,15 @@ namespace IntelligentScissors
             this.panel2.AutoScroll = true;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(801, 11);
+            this.panel2.Location = new System.Drawing.Point(954, 11);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(535, 576);
+            this.panel2.Size = new System.Drawing.Size(382, 545);
             this.panel2.TabIndex = 16;
             // 
             // done
             // 
-            this.done.Location = new System.Drawing.Point(686, 286);
+            this.done.Location = new System.Drawing.Point(736, 523);
             this.done.Name = "done";
             this.done.Size = new System.Drawing.Size(77, 46);
             this.done.TabIndex = 17;

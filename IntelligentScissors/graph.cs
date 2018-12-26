@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
+
 namespace IntelligentScissors
 {
     public class direction
@@ -15,7 +16,7 @@ namespace IntelligentScissors
         public double down { get; set; }
         public double left { get; set; }
         public double right { get; set; }
-        
+
         public direction()
         {
             up = -1;
@@ -38,28 +39,28 @@ namespace IntelligentScissors
             right = dr.right;
         }
     }
-    public  class graph_
+    public class graph_
     {
-       
 
-       
-        public static direction [,] calculateWeights(RGBPixel[,]  ImageMatrix)
+
+
+        public static direction[,] calculateWeights(RGBPixel[,] ImageMatrix)
         {
-            direction[,] weights = new direction[1000, 1000];
             int height = ImageOperations.GetHeight(ImageMatrix);
             int width = ImageOperations.GetWidth(ImageMatrix);
-            for (int y = 0; y < height ; y++)
+            direction[,] weights = new direction[height, width];
+            for (int y = 0; y < height; y++)
             {
-                for (int x = 0; x < width ; x++)
+                for (int x = 0; x < width; x++)
                 {
 
                     Vector2D ee;
                     ee = ImageOperations.CalculatePixelEnergies(x, y, ImageMatrix);
                     direction dr = new direction();
-                    if(y < height-1)
+                    if (y < height - 1)
                     {
 
-                        
+
                         if (ee.Y == 0) dr.down = 1E+16;
                         else
                             dr.down = 1 / ee.Y;
@@ -73,24 +74,24 @@ namespace IntelligentScissors
                     }
                     if (y > 0)
                     {
-                        ee = ImageOperations.CalculatePixelEnergies(x, y-1, ImageMatrix);
+                        ee = ImageOperations.CalculatePixelEnergies(x, y - 1, ImageMatrix);
 
-                       
+
                         if (ee.Y == 0) dr.up = 1E+16;
                         else
                             dr.up = 1 / ee.Y;
                     }
                     if (x > 0)
                     {
-                        ee = ImageOperations.CalculatePixelEnergies(x-1, y , ImageMatrix);
+                        ee = ImageOperations.CalculatePixelEnergies(x - 1, y, ImageMatrix);
 
-                        if (ee.X == 0) dr.left = 1E+16; 
+                        if (ee.X == 0) dr.left = 1E+16;
                         else
                             dr.left = 1 / ee.X;
-                       
+
                     }
                     weights[y, x] = new direction(dr);
-                    
+
                     //MessageBox.Show(weights[y, x].right.ToString());
 
 
@@ -109,24 +110,24 @@ namespace IntelligentScissors
         const int N = (1 << 22), M = (1 << 18), OO = 0x3f3f3f3f;
 
         List<Pair<int, int>> adj = new List<Pair<int, int>>(N);
-        public static bool valid ( int y, int x,int h , int w)
+        public static bool valid(int y, int x, int h, int w)
         {
             if (x >= 0 && y >= 0 && y < h && x < w) return true;
             return false;
         }
-        public static double[,] Dijkstra(direction [,] graph,int x , int y , int destinationX , int destinationY, int[,] fromx, int[,] fromy,int h , int w)
+        public static double[,] Dijkstra(direction[,] graph, int x, int y, int destinationX, int destinationY, int[,] fromx, int[,] fromy, int h, int w)
         {
-            double [,] dis = new double[1000,1000];
-           // int[,] fromx = new int[1000, 1000];
+            double[,] dis = new double[h, w];
+            // int[,] fromx = new int[1000, 1000];
             //int[,] fromy = new int[1000, 1000];
-            
-            for (int i = 0;i < 1000; ++i)
+
+            for (int i = 0; i < h; ++i)
             {
-                for (int j = 0; j < 1000; ++j)
-                dis[i, j] = 1E+17;
+                for (int j = 0; j < w; ++j)
+                    dis[i, j] = 1E+17;
             }
-            elPriorityQueuebta3khadiga pq = new elPriorityQueuebta3khadiga(x,y,0.0);
-            dis[y,x] = 0;
+            elPriorityQueuebta3khadiga pq = new elPriorityQueuebta3khadiga(x, y, 0.0);
+            dis[y, x] = 0;
 
             while (!pq.Empty())
             {
@@ -134,56 +135,56 @@ namespace IntelligentScissors
                 int xx = pq.Top().qx.Peek();
                 int yy = pq.Top().qy.Peek();
                 pq.Pop();
-                
-                if (d > dis[yy,xx]) continue;
-                if (valid(yy+1,xx,h,w)&&dis[yy+1,xx] > d + graph[yy,xx].down && graph[yy, xx].down != -1)
+
+                if (d > dis[yy, xx]) continue;
+                if (valid(yy + 1, xx, h, w) && dis[yy + 1, xx] > d + graph[yy, xx].down && graph[yy, xx].down != -1)
                 {
-                    dis[yy + 1, xx] = d + graph[yy , xx].down;
+                    dis[yy + 1, xx] = d + graph[yy, xx].down;
                     fromx[yy + 1, xx] = xx;
-                    fromy[yy+1, xx] = yy;
+                    fromy[yy + 1, xx] = yy;
                     //MessageBox.Show(fromx[yy+1, xx].ToString() + " down " + fromy[yy+1, xx].ToString());
-                    if (xx == destinationX && yy+1 == destinationY)
+                    if (xx == destinationX && yy + 1 == destinationY)
                     {
                         pq = null;
                         return dis;
                     }
-                    pq.push(xx, yy + 1, dis[yy+1,xx]);
+                    pq.push(xx, yy + 1, dis[yy + 1, xx]);
                 }
 
-                if (valid(yy,xx+1,h,w)&&dis[yy, xx+1] > d + graph[yy, xx].right && graph[yy, xx].right != -1)
+                if (valid(yy, xx + 1, h, w) && dis[yy, xx + 1] > d + graph[yy, xx].right && graph[yy, xx].right != -1)
                 {
-                    dis[yy, xx + 1] = d + graph[yy, xx ].right;
-                    pq.push(xx + 1, yy, dis[yy , xx+1]);
-                    fromx[yy , xx+1] = xx;
-                    fromy[yy, xx+1] = yy;
+                    dis[yy, xx + 1] = d + graph[yy, xx].right;
+                    pq.push(xx + 1, yy, dis[yy, xx + 1]);
+                    fromx[yy, xx + 1] = xx;
+                    fromy[yy, xx + 1] = yy;
                     //MessageBox.Show(fromx[yy, xx+1].ToString() + " right " + fromy[yy, xx+1].ToString());
-                    if (xx+1 == destinationX && yy  == destinationY)
+                    if (xx + 1 == destinationX && yy == destinationY)
                     {
                         pq = null;
                         return dis;
                     }
                 }
-                if (valid(yy-1, xx,h,w) && dis[yy - 1, xx] > d + graph[yy, xx].up && graph[yy, xx].up !=-1)
+                if (valid(yy - 1, xx, h, w) && dis[yy - 1, xx] > d + graph[yy, xx].up && graph[yy, xx].up != -1)
                 {
-                    dis[yy - 1, xx] = d + graph[yy , xx].up;
+                    dis[yy - 1, xx] = d + graph[yy, xx].up;
                     pq.push(xx, yy - 1, dis[yy - 1, xx]);
-                    fromx[yy-1, xx] = xx;
-                    fromy[yy-1, xx] = yy;
+                    fromx[yy - 1, xx] = xx;
+                    fromy[yy - 1, xx] = yy;
                     //MessageBox.Show(fromx[yy-1, xx].ToString() + " up " + fromy[yy-1, xx].ToString());
-                    if (xx == destinationX && yy-1 == destinationY)
+                    if (xx == destinationX && yy - 1 == destinationY)
                     {
                         pq = null;
                         return dis;
                     }
                 }
-                if (valid(yy, xx-1,h,w) && dis[yy, xx - 1] > d + graph[yy, xx ].left && graph[yy, xx].left != -1)
+                if (valid(yy, xx - 1, h, w) && dis[yy, xx - 1] > d + graph[yy, xx].left && graph[yy, xx].left != -1)
                 {
                     dis[yy, xx - 1] = d + graph[yy, xx].left;
-                    pq.push(xx-1, yy, dis[yy, xx-1]);
-                    fromx[yy, xx-1] = xx;
-                    fromy[yy, xx-1] = yy;
+                    pq.push(xx - 1, yy, dis[yy, xx - 1]);
+                    fromx[yy, xx - 1] = xx;
+                    fromy[yy, xx - 1] = yy;
                     //MessageBox.Show(fromx[yy, xx-1].ToString() + " left " + fromy[yy, xx-1].ToString());
-                    if (xx-1 == destinationX && yy == destinationY)
+                    if (xx - 1 == destinationX && yy == destinationY)
                     {
                         pq = null;
                         return dis;
@@ -206,20 +207,46 @@ namespace IntelligentScissors
             }*/
             return dis;
         }
-        public static void printpath(int x, int y, int srcx , int srcy, int[,] fromx, int[,] fromy,double [,] dis,RGBPixel [,] imageMatrix,List <Point> lop )
+
+        public static void printpath(int x, int y, int srcx, int srcy, int[,] fromx, int[,] fromy, double[,] dis, RGBPixel[,] imageMatrix, List<Point> lop)
         {
             int xx = x, yy = y;
-            while ((xx != srcx || yy != srcy) && (xx!=0 && yy !=0))
+
+            while ((xx != srcx || yy != srcy) && (xx != 0 && yy != 0))
             {
-                 //MessageBox.Show(fromx[yy,xx].ToString()+" "+ fromy[yy, xx].ToString());
-                lop.Add( new Point(xx, yy));
+                //MessageBox.Show(fromx[yy,xx].ToString()+" "+ fromy[yy, xx].ToString());
+                lop.Add(new Point(xx, yy));
+                if (lop.Count == 50)
+                {
+                    savepath(lop);
+                }
+
                 xx = fromx[yy, xx];
                 yy = fromy[yy, xx];
-                imageMatrix[yy, xx].blue = 0; imageMatrix[yy, xx].red = 255; imageMatrix[yy, xx].green = 0;
+                ///imageMatrix[yy, xx].blue = 0; imageMatrix[yy, xx].red = 255; imageMatrix[yy, xx].green = 0;
+
 
             }
-            
+
         }
-      
+        public static void savepath(List<Point> lop)
+        {
+            using (StreamWriter writer = new StreamWriter("path.txt"))
+            {
+                for (int i = 0; i < lop.Count; i++)
+                {
+                    writer.WriteLine("x " + lop[i].X + "    y " + lop[i].Y);
+                }
+            }
+        }
+        public static void color(RGBPixel[,] imageMatrix, List<Point> lop)
+        {
+            for (int i = 0; i < lop.Count; i++)
+            {
+                imageMatrix[lop[i].Y, lop[i].X].blue = 255; imageMatrix[lop[i].Y, lop[i].X].red = 255; imageMatrix[lop[i].Y, lop[i].X].green = 250;
+            }
+
+        }
+
     }
 }
