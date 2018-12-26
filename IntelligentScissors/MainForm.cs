@@ -18,6 +18,7 @@ namespace IntelligentScissors
 
         public RGBPixel[,] ImageMatrix;
         int h, w;
+        direction[,] energy;//= new direction[1000, 1000];
         private void btnOpen_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
@@ -27,6 +28,7 @@ namespace IntelligentScissors
                 string OpenedFilePath = openFileDialog1.FileName;
                 ImageMatrix = ImageOperations.OpenImage(OpenedFilePath);
                 ImageOperations.DisplayImage(ImageMatrix, pictureBox1);
+                energy = graph_.calculateWeights(ImageMatrix);
             }
 
             h_w();
@@ -66,11 +68,10 @@ namespace IntelligentScissors
             // graph_.printpath(3, 2, 0, 0, fromx, fromy, dist);
         }
 
-        double[,] energy = new double[1000, 1000];
         private void btnGaussSmooth_Click(object sender, EventArgs e)
         {
-            energy = graph_.calculateWeights(ImageMatrix);
-            saving_constructed_graph(energy, h, w);
+            
+           // saving_constructed_graph(energy, h, w);
             MouseEventArgs me = (MouseEventArgs)e;
             ImageOperations.DisplayImage(ImageMatrix, pictureBox2);
         }
